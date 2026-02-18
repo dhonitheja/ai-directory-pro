@@ -3,7 +3,7 @@ name: Auto-Update AI Tools
 on:
   schedule:
     # Run every 6 hours
-    - cron: '0 0 * * *' # Run once a day at midnight
+    - cron: '0 * * * *' # Run every hour
   workflow_dispatch:
 
 jobs:
