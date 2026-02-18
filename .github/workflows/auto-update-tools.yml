@@ -1,0 +1,46 @@
+name: Auto-Update AI Tools
+
+on:
+  schedule:
+    # Run every 6 hours
+    - cron: '0 */6 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  update-tools:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+
+    - name: Install dependencies
+      run: |
+        npm install --save-dev node-fetch
+
+    - name: Run Auto-Discovery Script
+      env:
+        GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+        SEARCH_ENGINE_ID: ${{ secrets.SEARCH_ENGINE_ID }}
+      run: node scripts/auto-discover.js
+
+    - name: Check for changes
+      id: git-check
+      run: |
+        git diff --exit-code || echo "changes=true" >> $GITHUB_OUTPUT
+
+    - name: Commit and Push if changes
+      if: steps.git-check.outputs.changes == 'true'
+      run: |
+        git config --global user.name 'AI Tool Bot'
+        git config --global user.email 'bot@noreply.github.com'
+        git add frontend/data/tools.ts
+        git commit -m "feat(data): newly discovered AI tools [skip ci]"
+        git push

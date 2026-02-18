@@ -845,6 +845,7 @@ export const TOOLS: Tool[] = [
     reviewCount: 800,
     pricing: PricingModel.FREEMIUM,
     website: 'https://www.blockadelabs.com',
+    tags: ['3d', 'skybox', 'environment'],
     imageUrl: 'https://picsum.photos/seed/blockade/400/300'
   },
 
@@ -1958,5 +1959,823 @@ export const TOOLS: Tool[] = [
     website: 'https://clay.com',
     tags: ['enrichment', 'personalization', 'outbound'],
     imageUrl: 'https://picsum.photos/seed/clay/400/300'
+  },
+
+  // ============================================================
+  // CAREER & RESUME BUILDING
+  // ============================================================
+  {
+    id: '167',
+    name: 'Rezi',
+    description: 'AI resume builder that optimizes keywords for ATS systems to help you get hired.',
+    category: Category.BUSINESS,
+    rating: 4.8,
+    reviewCount: 4200,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.rezi.ai',
+    tags: ['resume', 'career', 'ats'],
+    imageUrl: 'https://picsum.photos/seed/rezi/400/300'
+  },
+  {
+    id: '168',
+    name: 'Teal',
+    description: 'All-in-one career growth platform. Track jobs, build resumes, and manage your search.',
+    category: Category.BUSINESS,
+    rating: 4.9,
+    reviewCount: 3100,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.tealhq.com',
+    tags: ['career', 'tracking', 'resume'],
+    imageUrl: 'https://picsum.photos/seed/teal/400/300'
+  },
+  {
+    id: '169',
+    name: 'Kickresume',
+    description: 'Create beautiful resumes and cover letters with the help of AI and customizable templates.',
+    category: Category.BUSINESS,
+    rating: 4.7,
+    reviewCount: 2800,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.kickresume.com',
+    tags: ['resume', 'cover letter', 'design'],
+    imageUrl: 'https://picsum.photos/seed/kickresume/400/300'
+  },
+  {
+    id: '170',
+    name: 'Resume Worded',
+    description: 'AI-powered resume feedback. Improve your resume and LinkedIn profile with instant feedback.',
+    category: Category.BUSINESS,
+    rating: 4.6,
+    reviewCount: 1900,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://resumeworded.com',
+    tags: ['feedback', 'linkedin', 'optimization'],
+    imageUrl: 'https://picsum.photos/seed/resumeworded/400/300'
+  },
+  {
+    id: '171',
+    name: 'Jobscan',
+    description: 'Optimize your resume, LinkedIn profile, and cover letter for ATS and recruiters.',
+    category: Category.BUSINESS,
+    rating: 4.5,
+    reviewCount: 2500,
+    pricing: PricingModel.PAID,
+    website: 'https://www.jobscan.co',
+    tags: ['ats', 'optimization', 'keywords'],
+    imageUrl: 'https://picsum.photos/seed/jobscan/400/300'
+  },
+  {
+    id: '172',
+    name: 'WonsultingAI',
+    description: 'AI career tools for networking, resume building, and interview prep.',
+    category: Category.BUSINESS,
+    rating: 4.7,
+    reviewCount: 1500,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.wonsulting.com/ai',
+    tags: ['networking', 'interview', 'career'],
+    imageUrl: 'https://picsum.photos/seed/wonsulting/400/300'
+  },
+
+  // ============================================================
+  // DOCUMENTATION & KNOWLEDGE
+  // ============================================================
+  {
+    id: '173',
+    name: 'Scribe',
+    description: 'Turn any process into a step-by-step guide, instantly. Automatically generates how-to guides.',
+    category: Category.PRODUCTIVITY,
+    rating: 4.9,
+    reviewCount: 5200,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://scribehow.com',
+    tags: ['documentation', 'guides', 'process'],
+    imageUrl: 'https://picsum.photos/seed/scribe/400/300'
+  },
+  {
+    id: '174',
+    name: 'Tango',
+    description: 'Create beautiful how-to guides with screenshots, in seconds. Captures your workflow automatically.',
+    category: Category.PRODUCTIVITY,
+    rating: 4.8,
+    reviewCount: 3800,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.tango.us',
+    tags: ['guides', 'workflow', 'training'],
+    imageUrl: 'https://picsum.photos/seed/tango/400/300'
+  },
+  {
+    id: '175',
+    name: 'Mintlify',
+    description: 'Beautiful documentation that lives with your code.  AI-powered documentation writer.',
+    category: Category.CODING,
+    rating: 4.8,
+    reviewCount: 1100,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://mintlify.com',
+    tags: ['docs', 'developer', 'code'],
+    imageUrl: 'https://picsum.photos/seed/mintlify/400/300'
+  },
+  {
+    id: '176',
+    name: 'GitBook',
+    description: 'Knowledge management for technical teams. Documentation, but better, with AI search.',
+    category: Category.CODING,
+    rating: 4.7,
+    reviewCount: 4500,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.gitbook.com',
+    tags: ['docs', 'wiki', 'teams'],
+    imageUrl: 'https://picsum.photos/seed/gitbook/400/300'
+  },
+
+  // ============================================================
+  // PRESENTATIONS (PPT)
+  // ============================================================
+  {
+    id: '177',
+    name: 'SlidesAI',
+    description: 'Generate professional presentation slides from any text in seconds using AI. Works with Google Slides.',
+    category: Category.DESIGN,
+    rating: 4.5,
+    reviewCount: 12000,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.slidesai.io',
+    tags: ['slides', 'google slides', 'presentation'],
+    imageUrl: 'https://picsum.photos/seed/slidesai/400/300'
+  },
+  {
+    id: '178',
+    name: 'Decktopus',
+    description: 'The world\'s #1 AI-powered presentation generator. Create decks in no time.',
+    category: Category.DESIGN,
+    rating: 4.6,
+    reviewCount: 2100,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://decktopus.com',
+    tags: ['decks', 'presentation', 'business'],
+    imageUrl: 'https://picsum.photos/seed/decktopus/400/300'
+  },
+  {
+    id: '179',
+    name: 'Pitch',
+    description: 'Collaborative presentation software for modern teams, with AI generation features.',
+    category: Category.DESIGN,
+    rating: 4.7,
+    reviewCount: 3300,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://pitch.com',
+    tags: ['collaboration', 'design', 'decks'],
+    imageUrl: 'https://picsum.photos/seed/pitch/400/300'
+  },
+
+  // ============================================================
+  // VOICE CONVERSATION & EMOTION
+  // ============================================================
+  {
+    id: '180',
+    name: 'Pi',
+    description: 'A personalized AI, designed to be supportive, smart, and there for you anytime.  Great for voice conversation.',
+    category: Category.TEXT,
+    rating: 4.8,
+    reviewCount: 6700,
+    pricing: PricingModel.FREE,
+    website: 'https://pi.ai',
+    tags: ['conversation', 'support', 'voice'],
+    imageUrl: 'https://picsum.photos/seed/pi/400/300'
+  },
+  {
+    id: '181',
+    name: 'Hume AI',
+    description: 'The Empathic Voice Interface.  AI that understands and responds to human emotion in voice.',
+    category: Category.AUDIO,
+    rating: 4.7,
+    reviewCount: 900,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://hume.ai',
+    tags: ['emotion', 'voice', 'api'],
+    imageUrl: 'https://picsum.photos/seed/hume/400/300'
+  },
+
+  // ============================================================
+  // EMAIL WRITING
+  // ============================================================
+  {
+    id: '182',
+    name: 'Lavender',
+    description: 'The #1 AI Sales Email Assistant. Write better emails faster and get more replies.',
+    category: Category.MARKETING,
+    rating: 4.9,
+    reviewCount: 1400,
+    pricing: PricingModel.PAID,
+    website: 'https://www.lavender.ai',
+    tags: ['sales', 'email', 'coaching'],
+    imageUrl: 'https://picsum.photos/seed/lavender/400/300'
+  },
+  {
+    id: '183',
+    name: 'Warmer.ai',
+    description: 'AI email personalization tool that helps you increase reply rates with hyper-personalized intros.',
+    category: Category.MARKETING,
+    rating: 4.4,
+    reviewCount: 800,
+    pricing: PricingModel.PAID,
+    website: 'https://warmer.ai',
+    tags: ['personalization', 'outreach', 'email'],
+    imageUrl: 'https://picsum.photos/seed/warmer/400/300'
+  },
+  {
+    id: '184',
+    name: 'Ellie',
+    description: 'Your AI email assistant. Learn your writing style and craft replies in seconds.',
+    category: Category.TEXT,
+    rating: 4.6,
+    reviewCount: 1100,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://tryellie.com',
+    tags: ['email', 'reply', 'assistant'],
+    imageUrl: 'https://picsum.photos/seed/ellie/400/300'
+  },
+
+  // ============================================================
+  // ADVANCED VIDEO EDITING
+  // ============================================================
+  {
+    id: '185',
+    name: 'Wisecut',
+    description: 'AI video editor that automatically cuts silences, adds subtitles, and background music.',
+    category: Category.VIDEO,
+    rating: 4.5,
+    reviewCount: 1600,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.wisecut.video',
+    tags: ['editing', 'silence remover', 'subtitles'],
+    imageUrl: 'https://picsum.photos/seed/wisecut/400/300'
+  },
+  {
+    id: '186',
+    name: 'Munch',
+    description: 'Extract the most engaging clips from your long-form videos using AI.',
+    category: Category.VIDEO,
+    rating: 4.7,
+    reviewCount: 2200,
+    pricing: PricingModel.PAID,
+    website: 'https://www.getmunch.com',
+    tags: ['repurposing', 'clips', 'social'],
+    imageUrl: 'https://picsum.photos/seed/munch/400/300'
+  },
+  {
+    id: '187',
+    name: 'Dumme',
+    description: 'Generates shorts from your long videos with zero editing required.',
+    category: Category.VIDEO,
+    rating: 4.6,
+    reviewCount: 1300,
+    pricing: PricingModel.PAID,
+    website: 'https://dumme.com',
+    tags: ['shorts', 'clips', 'automation'],
+    imageUrl: 'https://picsum.photos/seed/dumme/400/300'
+  },
+  {
+    id: '188',
+    name: 'Gling',
+    description: 'AI video editor built for YouTubers. Automatically cuts bad takes and silences.',
+    category: Category.VIDEO,
+    rating: 4.8,
+    reviewCount: 950,
+    pricing: PricingModel.PAID,
+    website: 'https://gling.ai',
+    tags: ['youtube', 'editing', 'creators'],
+    imageUrl: 'https://picsum.photos/seed/gling/400/300'
+  },
+  {
+    id: '189',
+    name: 'Kapwing',
+    description: 'Collaborative online video editor with smart AI tools for modern creators.',
+    category: Category.VIDEO,
+    rating: 4.7,
+    reviewCount: 5000,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.kapwing.com',
+    tags: ['editor', 'online', 'collaborative'],
+    imageUrl: 'https://picsum.photos/seed/kapwing/400/300'
+  },
+  {
+    id: '190',
+    name: 'Veed.io',
+    description: 'Professional video editing, recording, hosting, and sharing platform. Powered by AI.',
+    category: Category.VIDEO,
+    rating: 4.6,
+    reviewCount: 7500,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.veed.io',
+    tags: ['editor', 'subtitles', 'recorder'],
+    imageUrl: 'https://picsum.photos/seed/veed/400/300'
+  },
+
+  // ============================================================
+  // MEETING ASSISTANTS
+  // ============================================================
+  {
+    id: '191',
+    name: 'Fathom',
+    description: 'A free AI meeting assistant that records, transcribes, and summarizes your Zoom, Google Meet, and Microsoft Teams calls.',
+    category: Category.PRODUCTIVITY,
+    rating: 4.9,
+    reviewCount: 3200,
+    pricing: PricingModel.FREE,
+    website: 'https://fathom.video',
+    tags: ['meeting', 'recorder', 'summary'],
+    imageUrl: 'https://picsum.photos/seed/fathom/400/300'
+  },
+  {
+    id: '192',
+    name: 'Supernormal',
+    description: 'AI-powered notetaker specifically designed for Google Meet and Zoom. Captures meeting notes automatically.',
+    category: Category.PRODUCTIVITY,
+    rating: 4.7,
+    reviewCount: 1800,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://supernormal.com',
+    tags: ['notes', 'google meet', 'zoom'],
+    imageUrl: 'https://picsum.photos/seed/supernormal/400/300'
+  },
+  {
+    id: '193',
+    name: 'Avoma',
+    description: 'An AI meeting assistant for customer-facing teams. Analyze calls and get actionable insights.',
+    category: Category.PRODUCTIVITY,
+    rating: 4.6,
+    reviewCount: 1200,
+    pricing: PricingModel.PAID,
+    website: 'https://www.avoma.com',
+    tags: ['sales', 'customer success', 'analytics'],
+    imageUrl: 'https://picsum.photos/seed/avoma/400/300'
+  },
+  {
+    id: '194',
+    name: 'MeetGeek',
+    description: 'Your AI meeting assistant. Automatically record, transcribe, summarize, and share key insights from every meeting.',
+    category: Category.PRODUCTIVITY,
+    rating: 4.8,
+    reviewCount: 2500,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://meetgeek.ai',
+    tags: ['transcription', 'summary', 'insights'],
+    imageUrl: 'https://picsum.photos/seed/meetgeek/400/300'
+  },
+  {
+    id: '195',
+    name: 'Grain',
+    description: 'AI meeting recording tool that helps you capture, share, and build knowledge from your team\'s conversations.',
+    category: Category.PRODUCTIVITY,
+    rating: 4.7,
+    reviewCount: 1500,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://grain.com',
+    tags: ['clips', 'sharing', 'knowledge'],
+    imageUrl: 'https://picsum.photos/seed/grain/400/300'
+  },
+  {
+    id: '196',
+    name: 'tl;dv',
+    description: 'The meeting recorder for Zoom and Google Meet. Catch up on meetings in minutes.',
+    category: Category.PRODUCTIVITY,
+    rating: 4.8,
+    reviewCount: 4100,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://tldv.io',
+    tags: ['zoom', 'google meet', 'recorder'],
+    imageUrl: 'https://picsum.photos/seed/tldv/400/300'
+  },
+
+  // ============================================================
+  // ANIMATION
+  // ============================================================
+  {
+    id: '197',
+    name: 'Kaiber',
+    description: 'Create animation videos from your own images or text prompts. Known for "Linkin Park" style music videos.',
+    category: Category.VIDEO,
+    rating: 4.7,
+    reviewCount: 3800,
+    pricing: PricingModel.PAID,
+    website: 'https://kaiber.ai',
+    tags: ['animation', 'stylized', 'music'],
+    imageUrl: 'https://picsum.photos/seed/kaiber/400/300'
+  },
+  {
+    id: '198',
+    name: 'Plask',
+    description: 'AI motion capture tool. Extract 3D motion from video without expensive suits.',
+    category: Category.THREE_D,
+    rating: 4.5,
+    reviewCount: 1200,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://plask.ai',
+    tags: ['mocap', 'animation', '3d'],
+    imageUrl: 'https://picsum.photos/seed/plask/400/300'
+  },
+  {
+    id: '199',
+    name: 'Artflow.ai',
+    description: 'Turn your stories into animated movies with consistent characters and scenes.',
+    category: Category.VIDEO,
+    rating: 4.6,
+    reviewCount: 1500,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://artflow.ai',
+    tags: ['storytelling', 'animation', 'characters'],
+    imageUrl: 'https://picsum.photos/seed/artflow/400/300'
+  },
+  {
+    id: '200',
+    name: 'LottieLab',
+    description: 'Create, edit and ship Lottie animations. Features AI text-to-animation capabilities.',
+    category: Category.DESIGN,
+    rating: 4.7,
+    reviewCount: 900,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://lottielab.com',
+    tags: ['lottie', 'web animation', 'ui'],
+    imageUrl: 'https://picsum.photos/seed/lottielab/400/300'
+  },
+
+  // ============================================================
+  // MOBILE APPLICATION BUILDING
+  // ============================================================
+  {
+    id: '201',
+    name: 'FlutterFlow',
+    description: 'Build beautiful native apps in a visual interface. Use AI to generate code, pages, and components.',
+    category: Category.CODING,
+    rating: 4.8,
+    reviewCount: 5500,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://flutterflow.io',
+    tags: ['mobile', 'app builder', 'no-code'],
+    imageUrl: 'https://picsum.photos/seed/flutterflow/400/300'
+  },
+  {
+    id: '202',
+    name: 'Imagica',
+    description: 'Build functional AI apps from a simple text prompt. No coding required.',
+    category: Category.CODING,
+    rating: 4.5,
+    reviewCount: 800,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://get.imagica.ai',
+    tags: ['app builder', 'generative', 'no-code'],
+    imageUrl: 'https://picsum.photos/seed/imagica/400/300'
+  },
+  {
+    id: '203',
+    name: 'Softr',
+    description: 'Build portals and internal tools from Airtable or Google Sheets. AI generator builds apps for you.',
+    category: Category.CODING,
+    rating: 4.7,
+    reviewCount: 2200,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://softr.io',
+    tags: ['web apps', 'internal tools', 'business'],
+    imageUrl: 'https://picsum.photos/seed/softr/400/300'
+  },
+  {
+    id: '204',
+    name: 'Glide',
+    description: 'Create powerful apps from your data. AI powers the app generation and logic.',
+    category: Category.CODING,
+    rating: 4.8,
+    reviewCount: 3100,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.glideapps.com',
+    tags: ['mobile', 'business apps', 'data'],
+    imageUrl: 'https://picsum.photos/seed/glide/400/300'
+  },
+
+  // ============================================================
+  // STORYTELLING & WRITING
+  // ============================================================
+  {
+    id: '205',
+    name: 'NovelAI',
+    description: 'A monthly subscription service for AI-assisted authorship and storytelling.',
+    category: Category.TEXT,
+    rating: 4.6,
+    reviewCount: 2500,
+    pricing: PricingModel.PAID,
+    website: 'https://novelai.net',
+    tags: ['fiction', 'story', 'writing'],
+    imageUrl: 'https://picsum.photos/seed/novelai/400/300'
+  },
+  {
+    id: '206',
+    name: 'Charisma.ai',
+    description: 'Create interactive stories with believable virtual characters that you can talk to.',
+    category: Category.THREE_D,
+    rating: 4.5,
+    reviewCount: 600,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://charisma.ai',
+    tags: ['interactive', 'games', 'narrative'],
+    imageUrl: 'https://picsum.photos/seed/charisma/400/300'
+  },
+  {
+    id: '207',
+    name: 'Storybird.ai',
+    description: 'Create personalized stories for children with illustrations in seconds.',
+    category: Category.TEXT,
+    rating: 4.7,
+    reviewCount: 1100,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://storybird.ai',
+    tags: ['kids', 'books', 'illustrated'],
+    imageUrl: 'https://picsum.photos/seed/storybird/400/300'
+  },
+
+  // ============================================================
+  // EDUCATION & LEARNING
+  // ============================================================
+  {
+    id: '208',
+    name: 'Khanmigo',
+    description: 'Khan Academy\'s AI-powered guide. It acts as a tutor for students and an assistant for teachers.',
+    category: Category.PRODUCTIVITY,
+    rating: 4.9,
+    reviewCount: 1500,
+    pricing: PricingModel.PAID,
+    website: 'https://www.khanacademy.org/khan-labs',
+    tags: ['tutor', 'education', 'math'],
+    imageUrl: 'https://picsum.photos/seed/khanmigo/400/300'
+  },
+  {
+    id: '209',
+    name: 'Duolingo Max',
+    description: 'Subscription tier of Duolingo powered by GPT-4, featuring Roleplay and Explain My Answer.',
+    category: Category.PRODUCTIVITY,
+    rating: 4.8,
+    reviewCount: 50000,
+    pricing: PricingModel.PAID,
+    website: 'https://www.duolingo.com',
+    tags: ['language', 'learning', 'conversation'],
+    imageUrl: 'https://picsum.photos/seed/duolingo/400/300'
+  },
+  {
+    id: '210',
+    name: 'Quizlet',
+    description: 'AI-powered study tools. Magic Notes turns your notes into flashcards, quizzes, and outlines.',
+    category: Category.PRODUCTIVITY,
+    rating: 4.7,
+    reviewCount: 14000,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://quizlet.com',
+    tags: ['study', 'flashcards', 'students'],
+    imageUrl: 'https://picsum.photos/seed/quizlet/400/300'
+  },
+  {
+    id: '211',
+    name: 'Socratic',
+    description: 'Google app that helps students understand their school work at a high school and university level.',
+    category: Category.PRODUCTIVITY,
+    rating: 4.6,
+    reviewCount: 8500,
+    pricing: PricingModel.FREE,
+    website: 'https://socratic.org',
+    tags: ['homework', 'math', 'science'],
+    imageUrl: 'https://picsum.photos/seed/socratic/400/300'
+  },
+  {
+    id: '212',
+    name: 'Coursera Coach',
+    description: 'Interactive AI learning assistant integrated into Coursera courses.',
+    category: Category.PRODUCTIVITY,
+    rating: 4.5,
+    reviewCount: 3000,
+    pricing: PricingModel.PAID,
+    website: 'https://www.coursera.org',
+    tags: ['courses', 'professional', 'learning'],
+    imageUrl: 'https://picsum.photos/seed/coursera/400/300'
+  },
+
+  // ============================================================
+  // BUSINESS & MANAGEMENT
+  // ============================================================
+  {
+    id: '213',
+    name: 'Attio',
+    description: 'A powerfully flexible CRM for modern teams. Real-time collaboration, endless customization, and AI-enhanced data enrichment.',
+    category: Category.BUSINESS,
+    rating: 4.8,
+    reviewCount: 1500,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://attio.com',
+    tags: ['crm', 'collaboration', 'database'],
+    imageUrl: 'https://picsum.photos/seed/attio/400/300'
+  },
+  {
+    id: '214',
+    name: 'Jira Intelligence',
+    description: 'Atlassian\'s AI features integrated into Jira. Automate tasks, summarize updates, and search across projects with natural language.',
+    category: Category.PRODUCTIVITY,
+    rating: 4.6,
+    reviewCount: 25000,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.atlassian.com/software/jira',
+    tags: ['project management', 'agile', 'tasks'],
+    imageUrl: 'https://picsum.photos/seed/jira/400/300'
+  },
+  {
+    id: '215',
+    name: 'Base44',
+    description: 'AI-powered app development platform. Build apps faster by leveraging AI for coding, design, and deployment.',
+    category: Category.CODING,
+    rating: 4.5,
+    reviewCount: 600,
+    pricing: PricingModel.PAID,
+    website: 'https://www.base44.com',
+    tags: ['app builder', 'development', 'ai'],
+    imageUrl: 'https://picsum.photos/seed/base44/400/300'
+  },
+
+  // ============================================================
+  // DEVELOPER TOOLS
+  // ============================================================
+  {
+    id: '216',
+    name: 'Google Cloud AI',
+    description: 'A suite of machine learning services including Vision, Translation, and Natural Language APIs for developers.',
+    category: Category.DATA,
+    rating: 4.7,
+    reviewCount: 12000,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://cloud.google.com/products/ai',
+    tags: ['cloud', 'api', 'machine learning'],
+    imageUrl: 'https://picsum.photos/seed/googlecloud/400/300'
+  },
+  {
+    id: '217',
+    name: 'JetBrains AI',
+    description: 'AI assistant integrated into JetBrains IDEs. Context-aware code completion, refactoring, and explanations.',
+    category: Category.CODING,
+    rating: 4.8,
+    reviewCount: 5000,
+    pricing: PricingModel.PAID,
+    website: 'https://www.jetbrains.com/ai',
+    tags: ['ide', 'coding', 'intellij'],
+    imageUrl: 'https://picsum.photos/seed/jetbrains/400/300'
+  },
+
+  // ============================================================
+  // TRENDING 2025 TOOLS
+  // ============================================================
+  {
+    id: '218',
+    name: 'Lovable',
+    description: 'GPT-4 powered full-stack app builder. Describe your app and get a fully functional react application.',
+    category: Category.CODING,
+    rating: 4.8,
+    reviewCount: 900,
+    pricing: PricingModel.PAID,
+    website: 'https://lovable.dev',
+    tags: ['app builder', 'react', 'full-stack'],
+    imageUrl: 'https://picsum.photos/seed/lovable/400/300'
+  },
+  {
+    id: '219',
+    name: 'Bolt.new',
+    description: 'Browser-based AI web development environment. Prompt to build, edit, and deploy full-stack apps instantly.',
+    category: Category.CODING,
+    rating: 4.9,
+    reviewCount: 1500,
+    pricing: PricingModel.FREE,
+    website: 'https://bolt.new',
+    tags: ['web dev', 'browser', 'instant'],
+    imageUrl: 'https://picsum.photos/seed/bolt/400/300'
+  },
+  {
+    id: '220',
+    name: 'n8n',
+    description: 'Workflow automation for technical people. Fair-code, self-hostable, and AI-native automation.',
+    category: Category.PRODUCTIVITY,
+    rating: 4.8,
+    reviewCount: 2200,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://n8n.io',
+    tags: ['automation', 'workflow', 'self-hosted'],
+    imageUrl: 'https://picsum.photos/seed/n8n/400/300'
+  },
+  {
+    id: '221',
+    name: 'Humata AI',
+    description: 'Chat with your files. AI that helps you read, understand, and extract data from complex documents faster.',
+    category: Category.PRODUCTIVITY,
+    rating: 4.6,
+    reviewCount: 1800,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.humata.ai',
+    tags: ['pdf', 'research', 'analysis'],
+    imageUrl: 'https://picsum.photos/seed/humata/400/300'
+  },
+  {
+    id: '222',
+    name: 'Talkpal AI',
+    description: 'The most advanced AI language tutor. Learn languages by chatting with an AI in realistic scenarios.',
+    category: Category.PRODUCTIVITY,
+    rating: 4.7,
+    reviewCount: 3100,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://talkpal.ai',
+    tags: ['language', 'tutor', 'learning'],
+    imageUrl: 'https://picsum.photos/seed/talkpal/400/300'
+  },
+  {
+    id: '223',
+    name: 'Wondershare Filmora',
+    description: 'Video editor with integrated AI features for copywriting, image generation, and smart editing.',
+    category: Category.VIDEO,
+    rating: 4.5,
+    reviewCount: 15000,
+    pricing: PricingModel.PAID,
+    website: 'https://filmora.wondershare.com',
+    tags: ['video editor', 'creative', 'effects'],
+    imageUrl: 'https://picsum.photos/seed/filmora/400/300'
+  },
+
+  // ============================================================
+  // ENTERPRISE & ECOSYSTEM
+  // ============================================================
+  {
+    id: '224',
+    name: 'Microsoft 365 Copilot',
+    description: 'AI integrated into Word, Excel, PowerPoint, Outlook, and Teams to unleash creativity and productivity.',
+    category: Category.PRODUCTIVITY,
+    rating: 4.7,
+    reviewCount: 15000,
+    pricing: PricingModel.PAID,
+    website: 'https://www.microsoft.com/en-us/microsoft-365/copilot',
+    tags: ['enterprise', 'office', 'productivity'],
+    imageUrl: 'https://picsum.photos/seed/m365copilot/400/300'
+  },
+  {
+    id: '225',
+    name: 'Zoom AI Companion',
+    description: 'Generative AI assistant for Zoom. Summaries, smart recordings, and email drafting.',
+    category: Category.PRODUCTIVITY,
+    rating: 4.6,
+    reviewCount: 8000,
+    pricing: PricingModel.PAID,
+    website: 'https://www.zoom.us/ai-assistant',
+    tags: ['meetings', 'video conferencing', 'summary'],
+    imageUrl: 'https://picsum.photos/seed/zoomai/400/300'
+  },
+  {
+    id: '226',
+    name: 'Google AI Studio',
+    description: 'The fastest way to prototype with the latest Gemini models. Build generative AI apps quickly.',
+    category: Category.CODING,
+    rating: 4.8,
+    reviewCount: 3500,
+    pricing: PricingModel.FREE,
+    website: 'https://aistudio.google.com',
+    tags: ['developer', 'prototyping', 'gemini'],
+    imageUrl: 'https://picsum.photos/seed/googlestudio/400/300'
+  },
+  {
+    id: '227',
+    name: 'NotebookLM',
+    description: 'An AI-first notebook by Google. Upload docs and get instant summaries, answers, and synthesized insights.',
+    category: Category.PRODUCTIVITY,
+    rating: 4.9,
+    reviewCount: 2200,
+    pricing: PricingModel.FREE,
+    website: 'https://notebooklm.google.com',
+    tags: ['research', 'notes', 'study'],
+    imageUrl: 'https://picsum.photos/seed/notebooklm/400/300'
+  },
+  {
+    id: '228',
+    name: 'Apple Intelligence',
+    description: 'Personal intelligence system for iPhone, iPad, and Mac that combines generative models with personal context.',
+    category: Category.PRODUCTIVITY,
+    rating: 4.8,
+    reviewCount: 10000,
+    pricing: PricingModel.FREE,
+    website: 'https://www.apple.com/apple-intelligence',
+    tags: ['ios', 'native', 'personal'],
+    imageUrl: 'https://picsum.photos/seed/appleintelligence/400/300'
   }
-];
+
+  {
+    id: '1771447737890',
+    name: 'Design Rails',
+    description: 'Discussion
+            |
+            Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/design-rails-ai-native-brand-in-mins',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1771447737890/400/300'
+  },];

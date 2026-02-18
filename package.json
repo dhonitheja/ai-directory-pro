@@ -1,6 +1,9 @@
 {
   "name": "ai-directory-pro",
-  "workspaces": ["frontend", "backend"], 
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
   "scripts": {
     "dev-frontend": "npm run dev --prefix frontend",
     "dev-backend": "npm run dev --prefix backend",
@@ -8,5 +11,10 @@
   },
   "devDependencies": {
     "concurrently": "latest"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "node-fetch": "^3.3.2",
+    "rss-parser": "^3.13.0"
   }
 }
