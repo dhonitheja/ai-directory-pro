@@ -2,12 +2,17 @@ import { GoogleGenAI } from '@google/genai';
 import { TOOLS } from '../data/tools';
 import { Tool } from '../types';
 
-const apiKey = process.env.API_KEY || '';
-const ai = new GoogleGenAI({ apiKey, vertexai: true });
+const getApiKey = () => {
+  // Use import.meta.env for Vite, fallback to empty string
+  return import.meta.env.VITE_API_KEY || '';
+};
 
 export const getAIRecommendations = async (userQuery: string): Promise<string> => {
+  const apiKey = getApiKey();
+
   if (!apiKey) {
-    return "API Key is missing. Please configure the environment variable.";
+    console.warn("API Key is missing. Please configure VITE_API_KEY.");
+    return "AI service is currently unavailable (API Key missing). Please try searching manually.";
   }
 
   const toolsContext = TOOLS.map(t => `${t.name} (${t.category}): ${t.description}`).join('\n');
@@ -28,8 +33,15 @@ export const getAIRecommendations = async (userQuery: string): Promise<string> =
   `;
 
   try {
+    // Initialize lazily to prevent top-level crashes
+    const ai = new GoogleGenAI({ apiKey });
+
+    // Note: 'gemini-2.5-flash' might not exist or require specific access. 
+    // Fallback model or standard model is safer. Trying recommended model first.
+    const modelId = 'gemini-1.5-flash';
+
     const response = await ai.models.generateContent({
-      model: 'gemini-2.5-flash',
+      model: modelId,
       contents: {
         role: 'user',
         parts: [{ text: prompt }]
