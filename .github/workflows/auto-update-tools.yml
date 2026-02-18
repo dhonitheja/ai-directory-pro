@@ -3,8 +3,8 @@ name: Auto-Update AI Tools
 on:
   schedule:
     # Run every 6 hours
-    - cron: '0 */6 * * *'
-  workflow_dispatch: # Allow manual trigger
+    - cron: '0 0 * * *' # Run once a day at midnight
+  workflow_dispatch:
 
 jobs:
   update-tools:
@@ -23,7 +23,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        npm install --save-dev node-fetch
+        npm install rss-parser
 
     - name: Run Auto-Discovery Script
       env:
