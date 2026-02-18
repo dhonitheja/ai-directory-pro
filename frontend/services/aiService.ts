@@ -1,9 +1,7 @@
-import { GoogleGenAI } from '@google/genai';
+// Direct usage of Gemini API via fetch to avoid Node.js SDK issues in browser
 import { TOOLS } from '../data/tools';
-import { Tool } from '../types';
 
 const getApiKey = () => {
-  // Use import.meta.env for Vite, fallback to empty string
   return import.meta.env.VITE_API_KEY || '';
 };
 
@@ -15,6 +13,7 @@ export const getAIRecommendations = async (userQuery: string): Promise<string> =
     return "AI service is currently unavailable (API Key missing). Please try searching manually.";
   }
 
+  // Create context from tools list
   const toolsContext = TOOLS.map(t => `${t.name} (${t.category}): ${t.description}`).join('\n');
 
   const prompt = `
@@ -33,22 +32,33 @@ export const getAIRecommendations = async (userQuery: string): Promise<string> =
   `;
 
   try {
-    // Initialize lazily to prevent top-level crashes
-    const ai = new GoogleGenAI({ apiKey });
-
-    // Note: 'gemini-2.5-flash' might not exist or require specific access. 
-    // Fallback model or standard model is safer. Trying recommended model first.
+    // Using standard Gemini 1.5 Flash model via REST API
     const modelId = 'gemini-1.5-flash';
-
-    const response = await ai.models.generateContent({
-      model: modelId,
-      contents: {
-        role: 'user',
-        parts: [{ text: prompt }]
+    const response = await fetch(
+      `https://generativelanguage.googleapis.com/v1beta/models/${modelId}:generateContent?key=${apiKey}`,
+      {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          contents: [{
+            parts: [{ text: prompt }]
+          }]
+        })
       }
-    });
+    );
 
-    return response.text || "Sorry, I couldn't generate a recommendation at this time.";
+    if (!response.ok) {
+      const errorData = await response.json().catch(() => ({}));
+      console.error("AI API Error:", errorData);
+      throw new Error(`API request failed with status ${response.status}`);
+    }
+
+    const data = await response.json();
+    // Safely access the response text
+    return data.candidates?.[0]?.content?.parts?.[0]?.text || "Sorry, I couldn't generate a recommendation at this time.";
+
   } catch (error) {
     console.error("Error fetching AI recommendations:", error);
     return "An error occurred while contacting the AI service.";
