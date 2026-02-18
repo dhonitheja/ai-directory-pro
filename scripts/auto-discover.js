@@ -105,7 +105,8 @@ function updateDatabase(newTool) {
   {
     id: '${id}',
     name: '${newTool.name.replace(/'/g, "\\'")}',
-    description: '${newTool.description.replace(/'/g, "\\'")}', 
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: '${newTool.description.replace(/'/g, "\\'").replace(/[\r\n]+/g, " ")}', 
     category: ${category},
     rating: 0,
     reviewCount: 0,

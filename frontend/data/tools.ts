@@ -2758,6 +2758,15 @@ export const TOOLS: Tool[] = [
     description: 'Personal intelligence system for iPhone, iPad, and Mac that combines generative models with personal context.',
     category: Category.PRODUCTIVITY,
     rating: 4.8,
+    reviewCount: 10000,
+    pricing: PricingModel.FREE,
+    website: 'https://www.apple.com/apple-intelligence',
+    tags: ['ios', 'native', 'personal'],
+    imageUrl: 'https://picsum.photos/seed/appleintelligence/400/300'
+  },
+  {
+    id: '213',
+    name: 'Attio',
     description: 'A powerfully flexible CRM for modern teams. Real-time collaboration, endless customization, and AI-enhanced data enrichment.',
     category: Category.BUSINESS,
     rating: 4.8,
@@ -2963,9 +2972,7 @@ export const TOOLS: Tool[] = [
   {
     id: '1771447737890',
     name: 'Design Rails',
-    description: 'Discussion
-      |
-      Link...', 
+    description: 'Discussion | Link...',
     category: Category.PRODUCTIVITY,
     rating: 0,
     reviewCount: 0,
