@@ -1,0 +1,45 @@
+name: Auto-Updates AI Tools
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Every midnight
+  workflow_dispatch:
+
+jobs:
+  update-tools:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies (if needed)
+        run: npm ci || npm install # Install dependencies if package-lock exists
+
+      - name: Fetch New Tools
+        run: node scripts/fetch-tools.js
+        # If using TS or custom deps, modify this step accordingly
+        
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: 'feat(tools): automated tool discovery update'
+          title: '🤖 New AI Tools Discovered'
+          body: |
+            This PR adds new AI tools discovered by the automated fetch script.
+            
+            **Review Checklist:**
+            - [ ] Verify tool descriptions
+            - [ ] Check categories are correct
+            - [ ] Test links if possible
+          branch: auto/update-tools
+          base: main
+          delete-branch: true
