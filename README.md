@@ -1,53 +1,56 @@
-# Vertex AI Studio Frontend App with Node.js Backend
+# 🚀 AI Directory Pro
 
-This repository contains a frontend and a Node.js backend, designed to run together.
-The backend acts as a proxy, handling Google Cloud API calls.
+A modern, verified directory of the best AI tools, featuring a premium glassmorphism UI and automated tool discovery.
 
-This project is intended for demonstration and prototyping purposes only.
-It is not intended for use in a production environment.
+## ✨ Features
+- **153+ Verified Tools**: Curated list of top-tier AI applications.
+- **Verification Trust System**: 
+  - **Shield Banner**: Shows verification sources (G2, Product Hunt, Experts).
+  - **Verified Badges**: Green checkmarks on every vetted tool card.
+- **AI Smart Recommendations**: Integrated Gemini AI to suggest tools based on natural language queries.
+- **Premium UI**: Custom-built design system using modern CSS variables, glassmorphism, and smooth animations.
+- **Automated Discovery 🤖**: Daily GitHub Action scans for trending tools and creates Pull Requests automatically.
 
-## Prerequisites
+## 🛠 Tech Stack
+- **Frontend**: React, TypeScript, Vite
+- **Styling**: Vanilla CSS (Premium Design System), Lucide Icons
+- **Deployment**: Vercel (SPA Routing Configured)
+- **CI/CD**: GitHub Actions (Automated Tool Ingestion)
 
-To run this application locally, you need:
+## 🚀 Quick Start
 
-*   **[Google Cloud SDK / gcloud CLI](https://cloud.google.com/sdk/docs/install)**: Follow the instructions to install the SDK.
-
-*   **gcloud Initialization**:
-    *   Initialize the gcloud CLI:
-        ```bash
-        gcloud init
-        ```
-    *   Authenticate for Application Default Credentials (needed to call Google Cloud APIs):
-        ```bash
-        gcloud auth application-default login
-        ```
-
-*   **Node.js and npm**: Ensure you have Node.js and its package manager, `npm`, installed on your machine.
-
-## Project Structure
-
-The project is organized into two main directories:
-
-*   `frontend/`: Contains the Frontend application code.
-*   `backend/`: Contains the Node.js/Express server code to proxy Google Cloud API calls.
-
-## Backend Environment Variables
-
-The `backend/.env.local` file is automatically generated when you download this application.
-It contains essential Google Cloud environment variables pre-configured based on your project settings at the time of download.
-
-The variables set in `backend/.env.local` are:
-*   `API_BACKEND_PORT`: The port the backend API server listens on (e.g., `5000`).
-*   `API_PAYLOAD_MAX_SIZE`: The maximum size of the request payload accepted by the backend server (e.g., `5mb`).
-*   `GOOGLE_CLOUD_LOCATION`: The Google Cloud region associated with your project.
-*   `GOOGLE_CLOUD_PROJECT`: Your Google Cloud Project ID.
-
-**Note:** These variables are automatically populated during the download process.
-You can modify the values in `backend/.env.local` if you need to change them.
-
-## Installation and Running the App
-
-To install dependencies and run your Google Cloud Vertex AI Studio App locally, execute the following command:
-
+### 1. Install Dependencies
 ```bash
-npm install && npm run dev
+npm install
+```
+
+### 2. Configure Environment
+Create a `.env` file in the root (or `frontend/`):
+```env
+VITE_API_KEY=your_gemini_api_key_here
+```
+
+### 3. Run Development Server
+```bash
+npm run dev
+```
+Visit `http://localhost:5173` to see the app.
+
+## 🤖 Automation Pipeline
+This project includes a **GitOps-based** automation system to keep the directory fresh.
+
+- **Script**: `scripts/fetch-tools.js`
+  - Fetches trending tools from external sources.
+  - Formats them and appends to `data/tools.ts`.
+- **Workflow**: `.github/workflows/update-tools.yml`
+  - Runs daily at midnight.
+  - Creates a Pull Request with new tools for review.
+
+## 📦 Deployment
+Deployed on **Vercel**.
+- **Build Command**: `npx vite build`
+- **Output Directory**: `dist`
+- **Routing**: SPA rewrite rules included in `vercel.json`.
+
+---
+*Built with ❤️ by AI Directory Pro Team*
