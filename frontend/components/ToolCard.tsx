@@ -42,7 +42,7 @@ export const ToolCard: React.FC<ToolCardProps> = ({ tool }) => {
         </p>
 
         <div className="tool-card-tags">
-          {tool.tags.slice(0, 3).map(tag => (
+          {(tool.tags || []).slice(0, 3).map(tag => (
             <span key={tag} className="tool-tag">
               <Tag size={10} style={{ marginRight: '4px' }} />
               {tag}

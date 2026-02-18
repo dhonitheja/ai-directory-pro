@@ -23,7 +23,7 @@ const App: React.FC = () => {
       result = result.filter(tool =>
         tool.name.toLowerCase().includes(lowerTerm) ||
         tool.description.toLowerCase().includes(lowerTerm) ||
-        tool.tags.some(tag => tag.toLowerCase().includes(lowerTerm))
+        (tool.tags || []).some(tag => tag.toLowerCase().includes(lowerTerm))
       );
     }
 
