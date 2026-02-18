@@ -101,7 +101,7 @@ function updateDatabase(newTool) {
         else if (desc.includes('code') || desc.includes('programming') || desc.includes('developer')) category = 'Category.CODING';
         else if (desc.includes('write') || desc.includes('marketing') || desc.includes('copy')) category = 'Category.TEXT';
 
-        const newEntry = `
+        const newEntry = `,
   {
     id: '${id}',
     name: '${newTool.name.replace(/'/g, "\\'")}',
@@ -113,7 +113,7 @@ function updateDatabase(newTool) {
     website: '${newTool.website}',
     tags: ${JSON.stringify(newTool.tags)},
     imageUrl: 'https://picsum.photos/seed/${id}/400/300'
-  },`;
+  }`;
 
         const newContent = fileContent.slice(0, closingBracketIndex) +
             newEntry +

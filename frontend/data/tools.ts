@@ -2758,24 +2758,219 @@ export const TOOLS: Tool[] = [
     description: 'Personal intelligence system for iPhone, iPad, and Mac that combines generative models with personal context.',
     category: Category.PRODUCTIVITY,
     rating: 4.8,
+    description: 'A powerfully flexible CRM for modern teams. Real-time collaboration, endless customization, and AI-enhanced data enrichment.',
+    category: Category.BUSINESS,
+    rating: 4.8,
+    reviewCount: 1500,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://attio.com',
+    tags: ['crm', 'collaboration', 'database'],
+    imageUrl: 'https://picsum.photos/seed/attio/400/300'
+  },
+  {
+    id: '214',
+    name: 'Jira Intelligence',
+    description: 'Atlassian\'s AI features integrated into Jira. Automate tasks, summarize updates, and search across projects with natural language.',
+    category: Category.PRODUCTIVITY,
+    rating: 4.6,
+    reviewCount: 25000,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.atlassian.com/software/jira',
+    tags: ['project management', 'agile', 'tasks'],
+    imageUrl: 'https://picsum.photos/seed/jira/400/300'
+  },
+  {
+    id: '215',
+    name: 'Base44',
+    description: 'AI-powered app development platform. Build apps faster by leveraging AI for coding, design, and deployment.',
+    category: Category.CODING,
+    rating: 4.5,
+    reviewCount: 600,
+    pricing: PricingModel.PAID,
+    website: 'https://www.base44.com',
+    tags: ['app builder', 'development', 'ai'],
+    imageUrl: 'https://picsum.photos/seed/base44/400/300'
+  },
+
+  // ============================================================
+  // DEVELOPER TOOLS
+  // ============================================================
+  {
+    id: '216',
+    name: 'Google Cloud AI',
+    description: 'A suite of machine learning services including Vision, Translation, and Natural Language APIs for developers.',
+    category: Category.DATA,
+    rating: 4.7,
+    reviewCount: 12000,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://cloud.google.com/products/ai',
+    tags: ['cloud', 'api', 'machine learning'],
+    imageUrl: 'https://picsum.photos/seed/googlecloud/400/300'
+  },
+  {
+    id: '217',
+    name: 'JetBrains AI',
+    description: 'AI assistant integrated into JetBrains IDEs. Context-aware code completion, refactoring, and explanations.',
+    category: Category.CODING,
+    rating: 4.8,
+    reviewCount: 5000,
+    pricing: PricingModel.PAID,
+    website: 'https://www.jetbrains.com/ai',
+    tags: ['ide', 'coding', 'intellij'],
+    imageUrl: 'https://picsum.photos/seed/jetbrains/400/300'
+  },
+
+  // ============================================================
+  // TRENDING 2025 TOOLS
+  // ============================================================
+  {
+    id: '218',
+    name: 'Lovable',
+    description: 'GPT-4 powered full-stack app builder. Describe your app and get a fully functional react application.',
+    category: Category.CODING,
+    rating: 4.8,
+    reviewCount: 900,
+    pricing: PricingModel.PAID,
+    website: 'https://lovable.dev',
+    tags: ['app builder', 'react', 'full-stack'],
+    imageUrl: 'https://picsum.photos/seed/lovable/400/300'
+  },
+  {
+    id: '219',
+    name: 'Bolt.new',
+    description: 'Browser-based AI web development environment. Prompt to build, edit, and deploy full-stack apps instantly.',
+    category: Category.CODING,
+    rating: 4.9,
+    reviewCount: 1500,
+    pricing: PricingModel.FREE,
+    website: 'https://bolt.new',
+    tags: ['web dev', 'browser', 'instant'],
+    imageUrl: 'https://picsum.photos/seed/bolt/400/300'
+  },
+  {
+    id: '220',
+    name: 'n8n',
+    description: 'Workflow automation for technical people. Fair-code, self-hostable, and AI-native automation.',
+    category: Category.PRODUCTIVITY,
+    rating: 4.8,
+    reviewCount: 2200,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://n8n.io',
+    tags: ['automation', 'workflow', 'self-hosted'],
+    imageUrl: 'https://picsum.photos/seed/n8n/400/300'
+  },
+  {
+    id: '221',
+    name: 'Humata AI',
+    description: 'Chat with your files. AI that helps you read, understand, and extract data from complex documents faster.',
+    category: Category.PRODUCTIVITY,
+    rating: 4.6,
+    reviewCount: 1800,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.humata.ai',
+    tags: ['pdf', 'research', 'analysis'],
+    imageUrl: 'https://picsum.photos/seed/humata/400/300'
+  },
+  {
+    id: '222',
+    name: 'Talkpal AI',
+    description: 'The most advanced AI language tutor. Learn languages by chatting with an AI in realistic scenarios.',
+    category: Category.PRODUCTIVITY,
+    rating: 4.7,
+    reviewCount: 3100,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://talkpal.ai',
+    tags: ['language', 'tutor', 'learning'],
+    imageUrl: 'https://picsum.photos/seed/talkpal/400/300'
+  },
+  {
+    id: '223',
+    name: 'Wondershare Filmora',
+    description: 'Video editor with integrated AI features for copywriting, image generation, and smart editing.',
+    category: Category.VIDEO,
+    rating: 4.5,
+    reviewCount: 15000,
+    pricing: PricingModel.PAID,
+    website: 'https://filmora.wondershare.com',
+    tags: ['video editor', 'creative', 'effects'],
+    imageUrl: 'https://picsum.photos/seed/filmora/400/300'
+  },
+
+  // ============================================================
+  // ENTERPRISE & ECOSYSTEM
+  // ============================================================
+  {
+    id: '224',
+    name: 'Microsoft 365 Copilot',
+    description: 'AI integrated into Word, Excel, PowerPoint, Outlook, and Teams to unleash creativity and productivity.',
+    category: Category.PRODUCTIVITY,
+    rating: 4.7,
+    reviewCount: 15000,
+    pricing: PricingModel.PAID,
+    website: 'https://www.microsoft.com/en-us/microsoft-365/copilot',
+    tags: ['enterprise', 'office', 'productivity'],
+    imageUrl: 'https://picsum.photos/seed/m365copilot/400/300'
+  },
+  {
+    id: '225',
+    name: 'Zoom AI Companion',
+    description: 'Generative AI assistant for Zoom. Summaries, smart recordings, and email drafting.',
+    category: Category.PRODUCTIVITY,
+    rating: 4.6,
+    reviewCount: 8000,
+    pricing: PricingModel.PAID,
+    website: 'https://www.zoom.us/ai-assistant',
+    tags: ['meetings', 'video conferencing', 'summary'],
+    imageUrl: 'https://picsum.photos/seed/zoomai/400/300'
+  },
+  {
+    id: '226',
+    name: 'Google AI Studio',
+    description: 'The fastest way to prototype with the latest Gemini models. Build generative AI apps quickly.',
+    category: Category.CODING,
+    rating: 4.8,
+    reviewCount: 3500,
+    pricing: PricingModel.FREE,
+    website: 'https://aistudio.google.com',
+    tags: ['developer', 'prototyping', 'gemini'],
+    imageUrl: 'https://picsum.photos/seed/googlestudio/400/300'
+  },
+  {
+    id: '227',
+    name: 'NotebookLM',
+    description: 'An AI-first notebook by Google. Upload docs and get instant summaries, answers, and synthesized insights.',
+    category: Category.PRODUCTIVITY,
+    rating: 4.9,
+    reviewCount: 2200,
+    pricing: PricingModel.FREE,
+    website: 'https://notebooklm.google.com',
+    tags: ['research', 'notes', 'study'],
+    imageUrl: 'https://picsum.photos/seed/notebooklm/400/300'
+  },
+  {
+    id: '228',
+    name: 'Apple Intelligence',
+    description: 'Personal intelligence system for iPhone, iPad, and Mac that combines generative models with personal context.',
+    category: Category.PRODUCTIVITY,
+    rating: 4.8,
     reviewCount: 10000,
     pricing: PricingModel.FREE,
     website: 'https://www.apple.com/apple-intelligence',
     tags: ['ios', 'native', 'personal'],
     imageUrl: 'https://picsum.photos/seed/appleintelligence/400/300'
-  }
+  },
 
   {
     id: '1771447737890',
     name: 'Design Rails',
     description: 'Discussion
-            |
-            Link...', 
+      |
+      Link...', 
     category: Category.PRODUCTIVITY,
     rating: 0,
     reviewCount: 0,
     pricing: PricingModel.FREEMIUM,
     website: 'https://www.producthunt.com/products/design-rails-ai-native-brand-in-mins',
-    tags: ["new","rss","auto-discovered"],
+    tags: ["new", "rss", "auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1771447737890/400/300'
   },];
