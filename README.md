@@ -52,5 +52,4 @@ Deployed on **Vercel**.
 - **Output Directory**: `dist`
 - **Routing**: SPA rewrite rules included in `vercel.json`.
 
----
-*Built with ❤️ by AI Directory Pro Team*
+
