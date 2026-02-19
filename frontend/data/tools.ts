@@ -2993,4 +2993,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.jasper.ai/chat',
     tags: ["chatbot", "business", "marketing"],
     imageUrl: 'https://picsum.photos/seed/1771453193291/400/300'
+  },
+  {
+    id: '1771486816615',
+    name: 'Flixier Generate AI Video in Timeline',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/flixier',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1771486816615/400/300'
   }];
