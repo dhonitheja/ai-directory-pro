@@ -2993,4 +2993,28 @@ export const TOOLS: Tool[] = [
     website: 'https://www.jasper.ai/chat',
     tags: ["chatbot","business","marketing"],
     imageUrl: 'https://picsum.photos/seed/1771453193291/400/300'
-  }];
+  }
+  {
+    id: '1771469112987955',
+    name: 'AutoGPT-Next-2986',
+    description: 'Autonomous AI agent for complex task execution.',
+    category: Category.CODING,
+    rating: 0, // New tools start with 0 rating
+    reviewCount: 0,
+    pricing: PricingModel.FREE,
+    website: 'https://github.com/significant-gravitas/AutoGPT',
+    tags: ["agent","autonomous","open-source"],
+    imageUrl: 'https://picsum.photos/seed/1771469112987955/400/300' // Placeholder image
+  },
+  {
+    id: '1771469112987324',
+    name: 'Stable-Diffusion-XL-2986',
+    description: 'Advanced text-to-image generation model.',
+    category: Category.IMAGE,
+    rating: 0, // New tools start with 0 rating
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://stability.ai',
+    tags: ["image","generative","art"],
+    imageUrl: 'https://picsum.photos/seed/1771469112987324/400/300' // Placeholder image
+  },];
