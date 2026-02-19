@@ -70,8 +70,8 @@ async function fetchFromFeeds() {
         return FALLBACK_TOOLS[Math.floor(Math.random() * FALLBACK_TOOLS.length)];
     }
 
-    // Pick a random tool from the fetched list to add
-    return newTools[Math.floor(Math.random() * newTools.length)];
+    // Return ALL discovered tools
+    return newTools;
 }
 
 function updateDatabase(newTool) {
@@ -137,6 +137,16 @@ function updateDatabase(newTool) {
 
 // Logic
 (async () => {
-    const foundTool = await fetchFromFeeds();
-    updateDatabase(foundTool);
+    const foundTools = await fetchFromFeeds();
+
+    // If fetchFromFeeds returns a single object (fallback), wrap it in an array
+    const toolsToAdd = Array.isArray(foundTools) ? foundTools : [foundTools];
+
+    console.log(`Found ${toolsToAdd.length} potential tools to add...`);
+
+    for (const tool of toolsToAdd) {
+        if (tool) {
+            updateDatabase(tool);
+        }
+    }
 })();
