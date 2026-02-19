@@ -2980,17 +2980,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/design-rails-ai-native-brand-in-mins',
     tags: ["new", "rss", "auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1771447737890/400/300'
-  },,
+  },
   {
     id: '1771453193291',
     name: 'Jasper Chat',
     // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
-    description: 'An AI chatbot for business that stays on brand and knows your company facts.', 
+    description: 'An AI chatbot for business that stays on brand and knows your company facts.',
     category: Category.MARKETING,
     rating: 0,
     reviewCount: 0,
     pricing: PricingModel.PAID,
     website: 'https://www.jasper.ai/chat',
-    tags: ["chatbot","business","marketing"],
+    tags: ["chatbot", "business", "marketing"],
     imageUrl: 'https://picsum.photos/seed/1771453193291/400/300'
   }];

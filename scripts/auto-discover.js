@@ -101,7 +101,13 @@ function updateDatabase(newTool) {
         else if (desc.includes('code') || desc.includes('programming') || desc.includes('developer')) category = 'Category.CODING';
         else if (desc.includes('write') || desc.includes('marketing') || desc.includes('copy')) category = 'Category.TEXT';
 
-        const newEntry = `,
+        let prefix = ',';
+        const contentBefore = fileContent.slice(0, closingBracketIndex).trimEnd();
+        if (contentBefore.endsWith(',')) {
+            prefix = '';
+        }
+
+        const newEntry = `${prefix}
   {
     id: '${id}',
     name: '${newTool.name.replace(/'/g, "\\'")}',
