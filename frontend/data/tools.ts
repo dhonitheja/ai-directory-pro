@@ -3097,4 +3097,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/prosaic',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1771925905678/400/300'
+  },
+  {
+    id: '1771932650157',
+    name: 'Live AI Design Benchmark',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/live-ai-design-benchmark',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1771932650157/400/300'
   }];
