@@ -3149,4 +3149,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/ramain',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1772034368152/400/300'
+  },
+  {
+    id: '1772038506284',
+    name: 'AskAIBase',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/ask-7',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1772038506284/400/300'
   }];
