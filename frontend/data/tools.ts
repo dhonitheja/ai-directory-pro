@@ -3162,4 +3162,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/ask-7',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1772038506284/400/300'
+  },
+  {
+    id: '1772082843584',
+    name: 'Yuma Social AI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/yuma-social-ai',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1772082843584/400/300'
   }];
