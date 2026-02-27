@@ -3240,4 +3240,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/superset-5',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1772180797340/400/300'
+  },
+  {
+    id: '1772200179438',
+    name: 'lemonpod.ai',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/lemonpod-ai',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1772200179438/400/300'
   }];
