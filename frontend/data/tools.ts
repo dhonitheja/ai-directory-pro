@@ -3383,4 +3383,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/upsolve-ai',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1772526321842/400/300'
+  },
+  {
+    id: '1772530146146',
+    name: 'Mailercloud Email API Platform',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/mailercloud',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1772530146146/400/300'
   }];
