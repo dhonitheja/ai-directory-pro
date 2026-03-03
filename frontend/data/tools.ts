@@ -3396,4 +3396,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/mailercloud',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1772530146146/400/300'
+  },
+  {
+    id: '1772533575757',
+    name: 'AI Agent Skills Refiner',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/ai-agent-skills-refiner',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1772533575757/400/300'
   }];
