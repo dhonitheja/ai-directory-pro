@@ -3448,4 +3448,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/openai',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1772627199968/400/300'
+  },
+  {
+    id: '1772652580800',
+    name: 'Personal AI Memory',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/personal-ai-memory',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1772652580800/400/300'
   }];
