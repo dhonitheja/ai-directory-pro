@@ -3435,4 +3435,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/assemblyai',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1772623204643/400/300'
+  },
+  {
+    id: '1772627199968',
+    name: 'GPT‑5.3 Instant in ChatGPT',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/openai',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1772627199968/400/300'
   }];
