@@ -3513,4 +3513,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/superpowers-ai-2',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1772795898043/400/300'
+  },
+  {
+    id: '1772804654686',
+    name: 'ChatGPT for Excel',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/chatgpt-for-excel-3',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1772804654686/400/300'
   }];
