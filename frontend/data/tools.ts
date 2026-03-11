@@ -3617,4 +3617,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/teract',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1773224756874/400/300'
+  },
+  {
+    id: '1773246990391',
+    name: 'MorphMind: A Steerable AI Platform',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/morphmind-launches-steerable-ai-platform',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1773246990391/400/300'
   }];
