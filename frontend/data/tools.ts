@@ -3656,4 +3656,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/screengeany-ai',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1773263974195/400/300'
+  },
+  {
+    id: '1773301048775',
+    name: 'Noah AI ',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/noah-ai-2',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1773301048775/400/300'
   }];
