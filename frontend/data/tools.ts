@@ -3669,4 +3669,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/noah-ai-2',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1773301048775/400/300'
+  },
+  {
+    id: '1773311185369',
+    name: 'Email API benchmarks',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/knock-6',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1773311185369/400/300'
   }];
