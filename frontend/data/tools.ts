@@ -3721,4 +3721,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/personal-ai-memory',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1773330213278/400/300'
+  },
+  {
+    id: '1773346805780',
+    name: 'Aligno AI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/aligno-ai',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1773346805780/400/300'
   }];
