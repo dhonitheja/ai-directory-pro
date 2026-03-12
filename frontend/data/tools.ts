@@ -3708,4 +3708,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/naoma',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1773318477458/400/300'
+  },
+  {
+    id: '1773330213278',
+    name: 'Personal AI Memory V2',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/personal-ai-memory',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1773330213278/400/300'
   }];
