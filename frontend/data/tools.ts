@@ -3682,4 +3682,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/knock-6',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1773311185369/400/300'
+  },
+  {
+    id: '1773314606809',
+    name: 'Raccoon AI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/raccoon-ai-cursor-for-anything',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1773314606809/400/300'
   }];
