@@ -3747,4 +3747,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/airpoint',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1773353587688/400/300'
+  },
+  {
+    id: '1773390289646',
+    name: 'ReplylessAI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/replylessai',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1773390289646/400/300'
   }];
