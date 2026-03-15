@@ -3786,4 +3786,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/ai-website-redesign',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1773486809765/400/300'
+  },
+  {
+    id: '1773562961487',
+    name: 'LaterAI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/laterai-save-read-listen',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1773562961487/400/300'
   }];
