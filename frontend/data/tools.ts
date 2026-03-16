@@ -3799,4 +3799,30 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/laterai-save-read-listen',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1773562961487/400/300'
+  },
+  {
+    id: '1773647964154',
+    name: 'Wendi AI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/wendi-ai-yc-application',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1773647964154/400/300'
+  },
+  {
+    id: '1773647964155',
+    name: 'JetBrains Air',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/jetbrains',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1773647964155/400/300'
   }];
