@@ -3916,4 +3916,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/banyan-ai-lite',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1773830275836/400/300'
+  },
+  {
+    id: '1773912658649',
+    name: 'GB1: The AI from the UK',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/gb1',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1773912658649/400/300'
   }];
