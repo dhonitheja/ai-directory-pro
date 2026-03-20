@@ -3968,4 +3968,30 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/link-ai',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1773968219677/400/300'
+  },
+  {
+    id: '1773998875505',
+    name: 'Cacheless - AI-powered Mac disk cleanup.',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/cacheless-ai-powered-disk-cleanup',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1773998875505/400/300'
+  },
+  {
+    id: '1773998875507',
+    name: 'Google AI Studio 2.0',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/google-ai-studio-8',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1773998875507/400/300'
   }];
