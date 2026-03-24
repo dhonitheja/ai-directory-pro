@@ -4111,4 +4111,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/chatgpt',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1774374264304/400/300'
+  },
+  {
+    id: '1774381447729',
+    name: 'Jotform AI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/jotform',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1774381447729/400/300'
   }];
