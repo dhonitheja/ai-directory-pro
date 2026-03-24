@@ -4085,4 +4085,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/opencutai-video',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1774345312082/400/300'
+  },
+  {
+    id: '1774348665167',
+    name: 'LelaAI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/lelaai-learn-languages-naturally',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1774348665167/400/300'
   }];
