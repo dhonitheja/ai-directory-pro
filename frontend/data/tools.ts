@@ -4137,4 +4137,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/3flow',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1774424589492/400/300'
+  },
+  {
+    id: '1774427648608',
+    name: 'Agentplace AI Agents',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/agentplace',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1774427648608/400/300'
   }];
