@@ -4215,4 +4215,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/cockpit-ai',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1774600543242/400/300'
+  },
+  {
+    id: '1774668762576',
+    name: 'Voxtral TTS by Mistral AI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/mistral-7b',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1774668762576/400/300'
   }];
