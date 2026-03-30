@@ -4241,4 +4241,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/apparent-for-gmail',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1774693138722/400/300'
+  },
+  {
+    id: '1774858396712',
+    name: 'AISpace',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/aispace',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1774858396712/400/300'
   }];
