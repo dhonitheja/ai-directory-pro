@@ -4280,4 +4280,30 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/ncompass-tech',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1774864987025/400/300'
+  },
+  {
+    id: '1774943929468',
+    name: 'Planana AI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/planana-ai',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1774943929468/400/300'
+  },
+  {
+    id: '1774943929477',
+    name: 'Pixero AI ',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/pixero-ai-2',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1774943929477/400/300'
   }];
