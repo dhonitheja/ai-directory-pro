@@ -4306,4 +4306,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/pixero-ai-2',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1774943929477/400/300'
+  },
+  {
+    id: '1774975452289',
+    name: 'Gallifai',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/gallifai',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1774975452289/400/300'
   }];
