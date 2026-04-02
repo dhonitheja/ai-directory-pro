@@ -4345,4 +4345,30 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/voicezeroai-2',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1775103311165/400/300'
+  },
+  {
+    id: '1775116547741',
+    name: 'Roger AI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/roger-ai-2',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1775116547741/400/300'
+  },
+  {
+    id: '1775116547744',
+    name: 'Raise Your Vibe: Daily Wisdom',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/daily-wisdom-raise-your-vibe',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1775116547744/400/300'
   }];
