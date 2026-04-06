@@ -4423,4 +4423,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/glassbrain',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1775463294110/400/300'
+  },
+  {
+    id: '1775469415150',
+    name: 'Predflow AI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/predflow-2',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1775469415150/400/300'
   }];
