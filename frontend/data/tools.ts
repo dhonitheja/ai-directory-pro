@@ -4410,4 +4410,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/klick-1-ai-camera-assistant',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1775291128561/400/300'
+  },
+  {
+    id: '1775463294110',
+    name: 'Glassbrain',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/glassbrain',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1775463294110/400/300'
   }];
