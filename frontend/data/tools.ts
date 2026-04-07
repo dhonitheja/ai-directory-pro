@@ -4449,4 +4449,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/mailero',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1775472481593/400/300'
+  },
+  {
+    id: '1775555703393',
+    name: 'TestRelic AI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/testrelic-ai',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1775555703393/400/300'
   }];
