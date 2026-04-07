@@ -4501,4 +4501,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/lessie-ai-2',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1775577688336/400/300'
+  },
+  {
+    id: '1775583906754',
+    name: 'OpenBrowser-AI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/openbrowser-ai-59-less-100-accurate',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1775583906754/400/300'
   }];
