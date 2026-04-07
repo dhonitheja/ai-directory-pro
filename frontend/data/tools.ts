@@ -4475,4 +4475,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/gauge',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1775558637564/400/300'
+  },
+  {
+    id: '1775571797671',
+    name: 'Google AI Edge Eloquent',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/google',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1775571797671/400/300'
   }];
