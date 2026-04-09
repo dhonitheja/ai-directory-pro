@@ -4540,4 +4540,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/aidesigner',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1775593910260/400/300'
+  },
+  {
+    id: '1775696239040',
+    name: 'Zoho Projects Infinity.ai',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/zoho-projects',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1775696239040/400/300'
   }];
