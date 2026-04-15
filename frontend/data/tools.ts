@@ -4696,4 +4696,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/softr',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1776189814478/400/300'
+  },
+  {
+    id: '1776247449389',
+    name: 'Playbook Intelligence',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/playbook-6',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1776247449389/400/300'
   }];
