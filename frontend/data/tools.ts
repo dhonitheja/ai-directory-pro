@@ -4735,4 +4735,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/layergen-ai',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1776271761134/400/300'
+  },
+  {
+    id: '1776333813909',
+    name: 'Pilot5.ai',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/pilot5-ai',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1776333813909/400/300'
   }];
