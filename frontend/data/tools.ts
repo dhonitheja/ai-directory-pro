@@ -4813,4 +4813,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/canva',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1776440704627/400/300'
+  },
+  {
+    id: '1776447463223',
+    name: 'Cloudflare Email Service',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/cloudflare',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1776447463223/400/300'
   }];
