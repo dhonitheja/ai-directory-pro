@@ -4748,4 +4748,30 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/pilot5-ai',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1776333813909/400/300'
+  },
+  {
+    id: '1776426000703',
+    name: 'Ichiba AI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/ichiba-ai',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1776426000703/400/300'
+  },
+  {
+    id: '1776426000705',
+    name: 'Studio – The AI-Native Media Workspace',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/coreviz-visual-ai-for-teams',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1776426000705/400/300'
   }];
