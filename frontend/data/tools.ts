@@ -4865,4 +4865,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/chatgpt-shopping',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1776498645464/400/300'
+  },
+  {
+    id: '1776504939808',
+    name: 'lindo.ai',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/lindo',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1776504939808/400/300'
   }];
