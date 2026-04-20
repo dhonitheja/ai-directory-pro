@@ -4878,4 +4878,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/lindo',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1776504939808/400/300'
+  },
+  {
+    id: '1776668836513',
+    name: 'Ona AI: Learning Assistive Technology',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/dumbail',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1776668836513/400/300'
   }];
