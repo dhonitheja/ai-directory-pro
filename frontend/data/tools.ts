@@ -4917,4 +4917,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/auxilius-ai',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1776700766894/400/300'
+  },
+  {
+    id: '1776759807016',
+    name: 'React Email 6.0',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/react-email-6-0',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1776759807016/400/300'
   }];
