@@ -5047,4 +5047,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/trail-visualize-your-chrome-browsing',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1776862319855/400/300'
+  },
+  {
+    id: '1776887878350',
+    name: 'Trail - visualize your browsing history',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/trail-visualize-your-chrome-browsing',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1776887878350/400/300'
   }];
