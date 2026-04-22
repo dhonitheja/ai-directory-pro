@@ -5008,4 +5008,43 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/chatgpt-images-2-0',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1776858508401/400/300'
+  },
+  {
+    id: '1776862319851',
+    name: 'sneo.ai',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/sneo-ai',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1776862319851/400/300'
+  },
+  {
+    id: '1776862319853',
+    name: 'TabMail',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/tabmail',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1776862319853/400/300'
+  },
+  {
+    id: '1776862319855',
+    name: 'Trail',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/trail-visualize-your-chrome-browsing',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1776862319855/400/300'
   }];
