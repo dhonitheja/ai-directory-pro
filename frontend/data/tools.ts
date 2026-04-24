@@ -5203,4 +5203,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/bansi',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1777059653706/400/300'
+  },
+  {
+    id: '1777062740705',
+    name: 'Google Workspace Intelligence',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/google',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1777062740705/400/300'
   }];
