@@ -5229,4 +5229,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/haiker',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1777091068477/400/300'
+  },
+  {
+    id: '1777103829605',
+    name: 'Inrō AI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/inro',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1777103829605/400/300'
   }];
