@@ -5307,4 +5307,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/video-ai-me',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1777326145991/400/300'
+  },
+  {
+    id: '1777370912495',
+    name: 'Actian VectorAI DB',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/actian',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1777370912495/400/300'
   }];
