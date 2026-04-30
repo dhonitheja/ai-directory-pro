@@ -5411,4 +5411,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/rova-ai',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1777548106277/400/300'
+  },
+  {
+    id: '1777554727374',
+    name: 'VideoOS by Jupitrr AI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/jupitrr',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1777554727374/400/300'
   }];
