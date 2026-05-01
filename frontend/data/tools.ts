@@ -5437,4 +5437,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/crin-ai',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1777585389801/400/300'
+  },
+  {
+    id: '1777598935343',
+    name: 'MailToDock',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/mailtodock',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1777598935343/400/300'
   }];
