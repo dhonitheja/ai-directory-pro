@@ -5502,4 +5502,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/airbyte-agents',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1777986063319/400/300'
+  },
+  {
+    id: '1778080581526',
+    name: 'Ads in ChatGPT',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/chatgpt',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1778080581526/400/300'
   }];
