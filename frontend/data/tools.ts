@@ -5541,4 +5541,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/openai',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1778151316785/400/300'
+  },
+  {
+    id: '1778193993526',
+    name: 'LikeTony.ai',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/liketony-ai',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1778193993526/400/300'
   }];
