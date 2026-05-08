@@ -5554,4 +5554,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/liketony-ai',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1778193993526/400/300'
+  },
+  {
+    id: '1778235125628',
+    name: 'iOrchestra AI Hardware Engineers',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/vibe-engineer-by-iorchestra',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1778235125628/400/300'
   }];
