@@ -5593,4 +5593,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/how-ai-pilled-are-you',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1778310153569/400/300'
+  },
+  {
+    id: '1778399395209',
+    name: 'Tailgrids 3.0',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/tailgrids',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1778399395209/400/300'
   }];
