@@ -5658,4 +5658,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/my-ai-agent',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1778610439637/400/300'
+  },
+  {
+    id: '1778617322812',
+    name: 'EmailTemple',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/emailtemple',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1778617322812/400/300'
   }];
