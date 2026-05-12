@@ -5671,4 +5671,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/emailtemple',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1778617322812/400/300'
+  },
+  {
+    id: '1778623134726',
+    name: 'Free AI SEO Auditor',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/free-ai-seo-auditor',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1778623134726/400/300'
   }];
