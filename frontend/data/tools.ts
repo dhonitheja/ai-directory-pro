@@ -5749,4 +5749,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/raindrop',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1778746845961/400/300'
+  },
+  {
+    id: '1778764817095',
+    name: 'Naptick AI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/naptick-ai-sleep-companion',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1778764817095/400/300'
   }];
