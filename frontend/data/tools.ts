@@ -5827,4 +5827,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/cleo-ai',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1778881476396/400/300'
+  },
+  {
+    id: '1778888491971',
+    name: 'Atter AI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/atter-ai-ai-transcription-for-meetings',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1778888491971/400/300'
   }];
