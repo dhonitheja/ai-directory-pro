@@ -5853,4 +5853,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/resemble-clone',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1778894806069/400/300'
+  },
+  {
+    id: '1778917420538',
+    name: 'ChatGPT for Personal Finance',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/openai',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1778917420538/400/300'
   }];
