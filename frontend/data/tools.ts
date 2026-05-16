@@ -5840,4 +5840,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/atter-ai-ai-transcription-for-meetings',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1778888491971/400/300'
+  },
+  {
+    id: '1778894806069',
+    name: 'DramaBox by Resemble AI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/resemble-clone',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1778894806069/400/300'
   }];
