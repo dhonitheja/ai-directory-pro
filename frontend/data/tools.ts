@@ -5918,4 +5918,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/voiser-ai-text-to-speech',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1779121153571/400/300'
+  },
+  {
+    id: '1779180707286',
+    name: 'CaseGap AI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/casegap-ai',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1779180707286/400/300'
   }];
