@@ -5970,4 +5970,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/mailx-by-mailwarm-yc-s20',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1779328287860/400/300'
+  },
+  {
+    id: '1779365479895',
+    name: 'Tycoon AI ',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/tycoon-us',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1779365479895/400/300'
   }];
