@@ -5957,4 +5957,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/thinnest-ai',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1779224902881/400/300'
+  },
+  {
+    id: '1779328287860',
+    name: 'mailX by mailwarm',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/mailx-by-mailwarm-yc-s20',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1779328287860/400/300'
   }];
