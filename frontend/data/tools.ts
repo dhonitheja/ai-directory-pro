@@ -6035,4 +6035,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/nugget-ai',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1779475933713/400/300'
+  },
+  {
+    id: '1779494008035',
+    name: 'motionvid.ai',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/motionvid-ai',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1779494008035/400/300'
   }];
