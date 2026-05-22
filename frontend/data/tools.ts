@@ -6009,4 +6009,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/jamtime-ai',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1779439385175/400/300'
+  },
+  {
+    id: '1779458736872',
+    name: 'Nota: AI Notes & Voice',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/nota-ai-notes-voice',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1779458736872/400/300'
   }];
