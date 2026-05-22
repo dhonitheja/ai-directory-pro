@@ -5983,4 +5983,30 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/tycoon-us',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1779365479895/400/300'
+  },
+  {
+    id: '1779439385173',
+    name: 'iPromise - AI focus buddy for deep work.',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/ipromise-ai-focus-buddy-for-deep-work',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1779439385173/400/300'
+  },
+  {
+    id: '1779439385175',
+    name: 'JAMtime.ai',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/jamtime-ai',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1779439385175/400/300'
   }];
