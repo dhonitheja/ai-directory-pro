@@ -6165,4 +6165,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/paint-by-json-an-api-client-for-figma',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1780358519869/400/300'
+  },
+  {
+    id: '1780394057597',
+    name: 'Fundraisly',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/fundraisly',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1780394057597/400/300'
   }];
