@@ -6321,4 +6321,30 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/asmi-ai',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1781217811785/400/300'
+  },
+  {
+    id: '1781241729864',
+    name: 'Lium AI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/lium',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1781241729864/400/300'
+  },
+  {
+    id: '1781241729867',
+    name: 'Airbrush Studio',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/airbrush-studio',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1781241729867/400/300'
   }];
