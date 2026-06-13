@@ -6373,4 +6373,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/locin-ai',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1781309361144/400/300'
+  },
+  {
+    id: '1781340048543',
+    name: 'CakewordAI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/cakewordai-snap-learn',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1781340048543/400/300'
   }];
