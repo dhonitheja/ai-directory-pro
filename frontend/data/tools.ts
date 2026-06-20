@@ -6529,4 +6529,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/upsolve-ai',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1781896764259/400/300'
+  },
+  {
+    id: '1781956046789',
+    name: 'Mellum by JetBrains',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/jetbrains',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1781956046789/400/300'
   }];
