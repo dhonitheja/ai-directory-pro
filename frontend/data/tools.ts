@@ -6581,4 +6581,30 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/atomic-mail-agentic',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1782026414971/400/300'
+  },
+  {
+    id: '1782131902970',
+    name: 'HAQQ Legal AI on Mobile',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/haqq-mobile-app',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1782131902970/400/300'
+  },
+  {
+    id: '1782131902973',
+    name: 'Alai 2.0',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/alai',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1782131902973/400/300'
   }];
