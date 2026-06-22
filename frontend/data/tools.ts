@@ -6607,4 +6607,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/alai',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1782131902973/400/300'
+  },
+  {
+    id: '1782159949116',
+    name: 'AirJelly',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/airjelly',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1782159949116/400/300'
   }];
