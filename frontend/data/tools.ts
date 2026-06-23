@@ -6659,4 +6659,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/buddy-ai-note',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1782221522854/400/300'
+  },
+  {
+    id: '1782241047188',
+    name: 'Bluerails Discovery ',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/bluerails-discovery',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1782241047188/400/300'
   }];
