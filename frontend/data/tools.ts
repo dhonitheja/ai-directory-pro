@@ -6698,4 +6698,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/crewdle',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1782300873607/400/300'
+  },
+  {
+    id: '1782376904692',
+    name: 'Oxlo.ai',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/oxlo-ai',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1782376904692/400/300'
   }];
