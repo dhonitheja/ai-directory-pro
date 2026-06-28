@@ -6750,4 +6750,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/folio-ai',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1782548410670/400/300'
+  },
+  {
+    id: '1782640123098',
+    name: 'discode.ai',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/discode-ai',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1782640123098/400/300'
   }];
