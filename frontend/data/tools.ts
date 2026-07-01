@@ -6802,4 +6802,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/outpaint-com-ad-reframe',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1782770450804/400/300'
+  },
+  {
+    id: '1782897737753',
+    name: 'AI Usage, Under Control',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/stigg',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1782897737753/400/300'
   }];
