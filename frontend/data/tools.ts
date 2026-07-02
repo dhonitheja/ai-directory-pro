@@ -6841,4 +6841,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/mailadept-by-mailwarm-yc-s20',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1782967710391/400/300'
+  },
+  {
+    id: '1783025244407',
+    name: 'Banger Mail',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/banger-mail',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1783025244407/400/300'
   }];
