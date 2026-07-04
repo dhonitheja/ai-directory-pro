@@ -6854,4 +6854,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/banger-mail',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1783025244407/400/300'
+  },
+  {
+    id: '1783152892771',
+    name: 'CentryAI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/centryai',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1783152892771/400/300'
   }];
