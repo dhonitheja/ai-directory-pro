@@ -6880,4 +6880,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/mozaik-4',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1783336660654/400/300'
+  },
+  {
+    id: '1783359046265',
+    name: 'AirKaren',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/airkaren',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1783359046265/400/300'
   }];
