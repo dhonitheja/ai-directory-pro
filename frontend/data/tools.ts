@@ -6893,4 +6893,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/airkaren',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1783359046265/400/300'
+  },
+  {
+    id: '1783414679659',
+    name: 'Ogment AI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/ogment-mcp-builder',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1783414679659/400/300'
   }];
