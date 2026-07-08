@@ -6932,4 +6932,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/ai-emaily-unified-ai-inbox',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1783450300879/400/300'
+  },
+  {
+    id: '1783512576625',
+    name: 'Bono AI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/bono-ai',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1783512576625/400/300'
   }];
