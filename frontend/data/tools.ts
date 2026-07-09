@@ -6945,4 +6945,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/bono-ai',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1783512576625/400/300'
+  },
+  {
+    id: '1783588016857',
+    name: 'Constellation Gate AI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/gate-ai-2',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1783588016857/400/300'
   }];
