@@ -6997,4 +6997,30 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/perfai-security-for-vibe-coded-apps',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1783616921560/400/300'
+  },
+  {
+    id: '1783671186508',
+    name: 'GPT-5.6',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/openai',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1783671186508/400/300'
+  },
+  {
+    id: '1783671186511',
+    name: 'Muse Spark 1.1 by Meta AI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/muse-spark-1-1-by-meta',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1783671186511/400/300'
   }];
