@@ -7049,4 +7049,30 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/second-brain-cloudflare',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1783841259715/400/300'
+  },
+  {
+    id: '1783931846931',
+    name: 'TailMux',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/tailmux',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1783931846931/400/300'
+  },
+  {
+    id: '1783931846934',
+    name: 'AI Media Buyer By Creatify',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/creatify',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1783931846934/400/300'
   }];
