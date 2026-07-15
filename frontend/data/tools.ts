@@ -7127,4 +7127,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/professional-email-templates',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1784120405137/400/300'
+  },
+  {
+    id: '1784126960316',
+    name: 'New AI tools by IFTTT',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/ifttt',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1784126960316/400/300'
   }];
