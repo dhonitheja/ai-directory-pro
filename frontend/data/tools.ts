@@ -7088,4 +7088,30 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/mojave-paint',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1784027615436/400/300'
+  },
+  {
+    id: '1784108656374',
+    name: 'Review by Eddie AI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/eddie-your-ai-video-editor',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1784108656374/400/300'
+  },
+  {
+    id: '1784108656378',
+    name: 'Tiptap AI Toolkit',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/tiptap',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1784108656378/400/300'
   }];
