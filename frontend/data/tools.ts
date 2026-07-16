@@ -7179,4 +7179,30 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/albato',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1784195418739/400/300'
+  },
+  {
+    id: '1784200974982',
+    name: 'Graft AI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/graft-ai',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1784200974982/400/300'
+  },
+  {
+    id: '1784200974987',
+    name: 'Manta AI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/manta-ai',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1784200974987/400/300'
   }];
