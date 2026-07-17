@@ -7218,4 +7218,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/chikitai',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1784207276643/400/300'
+  },
+  {
+    id: '1784271958093',
+    name: 'Pebbles Ai',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/pebbles-ai',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1784271958093/400/300'
   }];
