@@ -7231,4 +7231,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/pebbles-ai',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1784271958093/400/300'
+  },
+  {
+    id: '1784363280759',
+    name: 'Mainichi',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/mainichi-2',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1784363280759/400/300'
   }];
