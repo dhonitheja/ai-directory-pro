@@ -7283,4 +7283,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/fuzzy-ai-2',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1784536187995/400/300'
+  },
+  {
+    id: '1784547023154',
+    name: 'Skippr AI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/skippr-3',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1784547023154/400/300'
   }];
