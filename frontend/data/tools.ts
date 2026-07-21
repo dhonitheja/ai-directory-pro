@@ -7309,4 +7309,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/cartai',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1784618642482/400/300'
+  },
+  {
+    id: '1784636147847',
+    name: 'Routine AI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/routine',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1784636147847/400/300'
   }];
