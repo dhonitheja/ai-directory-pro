@@ -7374,4 +7374,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/podcastorai',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1784868886646/400/300'
+  },
+  {
+    id: '1784877749732',
+    name: 'Fluree AI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/fluree',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1784877749732/400/300'
   }];
