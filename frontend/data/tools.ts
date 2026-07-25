@@ -7400,4 +7400,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/second-brain-cloudflare',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1784963146567/400/300'
+  },
+  {
+    id: '1784994736637',
+    name: 'Health in ChatGPT',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/openai',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1784994736637/400/300'
   }];
