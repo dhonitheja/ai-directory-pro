@@ -7465,4 +7465,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/robynn-ai-self-improving-websites',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1785142765958/400/300'
+  },
+  {
+    id: '1785166361391',
+    name: 'Repaint Socials',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/repaint-ai-website-builder',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1785166361391/400/300'
   }];
