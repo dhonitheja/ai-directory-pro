@@ -7504,4 +7504,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/gstack-joins-your-meeting',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1785179036428/400/300'
+  },
+  {
+    id: '1785223642407',
+    name: 'Ycode AI Agents',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/ycode',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1785223642407/400/300'
   }];
