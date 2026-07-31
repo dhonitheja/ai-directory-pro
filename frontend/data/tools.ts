@@ -7595,4 +7595,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/ai-search-console',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1785442099740/400/300'
+  },
+  {
+    id: '1785486237976',
+    name: 'Halo by Scam AI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/scam-ai',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1785486237976/400/300'
   }];
