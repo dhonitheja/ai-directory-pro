@@ -7699,4 +7699,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/mpai',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1785818960395/400/300'
+  },
+  {
+    id: '1785838940099',
+    name: 'AirProof AI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/airproof-ai',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1785838940099/400/300'
   }];
