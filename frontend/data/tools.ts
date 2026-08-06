@@ -7764,4 +7764,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/ticketdesk-ai',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1786020406084/400/300'
+  },
+  {
+    id: '1786055575750',
+    name: 'AI Spend Console by Rippling',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/rippling',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1786055575750/400/300'
   }];
