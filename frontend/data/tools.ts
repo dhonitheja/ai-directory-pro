@@ -7803,4 +7803,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/progress-ai-observability',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1786120614533/400/300'
+  },
+  {
+    id: '1786124191239',
+    name: 'Coldtea.ai',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/coldtea',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1786124191239/400/300'
   }];
