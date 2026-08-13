@@ -7855,4 +7855,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/amp-by-canyontechs-ai',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1786480174441/400/300'
+  },
+  {
+    id: '1786604644243',
+    name: 'WebBrain',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/webbrain',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1786604644243/400/300'
   }];
