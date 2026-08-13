@@ -7868,4 +7868,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/webbrain',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1786604644243/400/300'
+  },
+  {
+    id: '1786624587974',
+    name: 'Scrimba Explain',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/scrimba',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1786624587974/400/300'
   }];
