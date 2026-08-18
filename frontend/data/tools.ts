@@ -7985,4 +7985,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/airbuddy-2',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1787055378734/400/300'
+  },
+  {
+    id: '1787059951300',
+    name: 'Taku AI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/taku-ai',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1787059951300/400/300'
   }];
