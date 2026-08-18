@@ -7998,4 +7998,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/taku-ai',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1787059951300/400/300'
+  },
+  {
+    id: '1787066242280',
+    name: 'Meterless.ai',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/meterless-ai',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1787066242280/400/300'
   }];
