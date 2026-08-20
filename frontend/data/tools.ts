@@ -8063,4 +8063,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/openai',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1787152615627/400/300'
+  },
+  {
+    id: '1787210975899',
+    name: 'Cloudways Managed AI Agents',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/cloudways',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1787210975899/400/300'
   }];
