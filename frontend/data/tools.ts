@@ -8089,4 +8089,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/bitdrift',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1787217605430/400/300'
+  },
+  {
+    id: '1787220937745',
+    name: 'Checksum AI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/checksum-ai',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1787220937745/400/300'
   }];
