@@ -8076,4 +8076,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/cloudways',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1787210975899/400/300'
+  },
+  {
+    id: '1787217605430',
+    name: 'bitdrift.ai',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/bitdrift',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1787217605430/400/300'
   }];
