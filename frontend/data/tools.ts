@@ -8141,4 +8141,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/shogunai',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1787307354869/400/300'
+  },
+  {
+    id: '1787336190866',
+    name: 'PixelRead AI OCR',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/pixelread-ai-ocr',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1787336190866/400/300'
   }];
