@@ -8193,4 +8193,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/chatgpt-ad-library',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1787649690406/400/300'
+  },
+  {
+    id: '1787656446051',
+    name: 'Agnost AI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/agnost-ai',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1787656446051/400/300'
   }];
