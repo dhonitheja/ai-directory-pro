@@ -8219,4 +8219,30 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/ninjo-ai',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1787674842559/400/300'
+  },
+  {
+    id: '1787729657896',
+    name: 'Arena AI Agent',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/arena-5',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1787729657896/400/300'
+  },
+  {
+    id: '1787729657898',
+    name: 'ReWeaver AI DriftDetector',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/reweaver-driftdetector',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1787729657898/400/300'
   }];
