@@ -8271,4 +8271,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/expertise-ai',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1787736398004/400/300'
+  },
+  {
+    id: '1788102406753',
+    name: 'Murfy AI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/murfy',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1788102406753/400/300'
   }];
