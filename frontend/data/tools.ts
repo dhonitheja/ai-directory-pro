@@ -8284,4 +8284,30 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/murfy',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1788102406753/400/300'
+  },
+  {
+    id: '1788258776735',
+    name: 'Kilo Code for JetBrains',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/kilocode',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1788258776735/400/300'
+  },
+  {
+    id: '1788258776737',
+    name: 'Tovel AI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/tovel-ai',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1788258776737/400/300'
   }];
