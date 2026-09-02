@@ -8323,4 +8323,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/gauth-ai-course',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1788275644379/400/300'
+  },
+  {
+    id: '1788349563532',
+    name: 'Basedash AI Sources',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/basedash',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1788349563532/400/300'
   }];
