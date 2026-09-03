@@ -8336,4 +8336,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/basedash',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1788349563532/400/300'
+  },
+  {
+    id: '1788470770664',
+    name: 'Agent Builder by Airtop',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/airtop',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1788470770664/400/300'
   }];
