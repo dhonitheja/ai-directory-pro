@@ -8362,4 +8362,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/tabbitai',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1788478503233/400/300'
+  },
+  {
+    id: '1788534625475',
+    name: 'GPT-6 Astra',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/openai',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1788534625475/400/300'
   }];
