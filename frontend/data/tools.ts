@@ -8440,4 +8440,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/chatgpt-toolbox',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1788687791451/400/300'
+  },
+  {
+    id: '1788777970414',
+    name: 'PR Lens by Coldtea.ai',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/coldtea',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1788777970414/400/300'
   }];
