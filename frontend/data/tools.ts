@@ -8518,4 +8518,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/workid-ai',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1788996822770/400/300'
+  },
+  {
+    id: '1789041155488',
+    name: 'AirPods 5',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/apple',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1789041155488/400/300'
   }];
