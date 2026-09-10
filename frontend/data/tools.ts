@@ -8531,4 +8531,30 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/apple',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1789041155488/400/300'
+  },
+  {
+    id: '1789065755764',
+    name: 'AI Observability by OpenObserve',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/openobserve',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1789065755764/400/300'
+  },
+  {
+    id: '1789065755767',
+    name: 'Athenic AI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/athenic-ai',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1789065755767/400/300'
   }];
