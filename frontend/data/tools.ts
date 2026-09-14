@@ -8570,4 +8570,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/easyspecs-ai',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1789161708956/400/300'
+  },
+  {
+    id: '1789370007511',
+    name: 'Naoma AI Demo Agent V2',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/naoma',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1789370007511/400/300'
   }];
