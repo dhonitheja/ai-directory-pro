@@ -8661,4 +8661,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/aina',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1789754109375/400/300'
+  },
+  {
+    id: '1789771961992',
+    name: 'Dictation API by AssemblyAI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/assemblyai',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1789771961992/400/300'
   }];
