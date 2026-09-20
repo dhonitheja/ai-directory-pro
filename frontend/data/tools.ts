@@ -8687,4 +8687,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/ai-class-by-kanary',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1789794725328/400/300'
+  },
+  {
+    id: '1789941373593',
+    name: 'YABAI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/yabai',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1789941373593/400/300'
   }];
