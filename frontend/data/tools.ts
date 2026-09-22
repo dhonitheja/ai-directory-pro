@@ -8726,4 +8726,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/simular',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1789974974039/400/300'
+  },
+  {
+    id: '1790097706490',
+    name: '2BA.AI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/2ba-ai',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1790097706490/400/300'
   }];
