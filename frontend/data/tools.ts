@@ -8752,4 +8752,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/naise-ai',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1790205261278/400/300'
+  },
+  {
+    id: '1790271316896',
+    name: 'Storytailor®',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/storytailor',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1790271316896/400/300'
   }];
