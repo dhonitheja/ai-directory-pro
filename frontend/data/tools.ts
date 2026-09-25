@@ -8778,4 +8778,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/kairn-2',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1790319844188/400/300'
+  },
+  {
+    id: '1790373137519',
+    name: 'Kaiku',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/kaiku',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1790373137519/400/300'
   }];
