@@ -8895,4 +8895,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/vitra-ai-agentic-content-platform',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1790884499406/400/300'
+  },
+  {
+    id: '1790931759187',
+    name: 'Syllaby AI Avatar 2.0',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/syllaby-ai-avatar-2-0',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1790931759187/400/300'
   }];
