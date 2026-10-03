@@ -8921,4 +8921,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/veltrix-ai',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1790956739205/400/300'
+  },
+  {
+    id: '1791024061849',
+    name: 'Thanor AI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/thanor-ai',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1791024061849/400/300'
   }];
