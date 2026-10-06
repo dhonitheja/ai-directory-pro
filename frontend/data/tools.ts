@@ -8986,4 +8986,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/oogwai-beacon',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1791226356395/400/300'
+  },
+  {
+    id: '1791294081815',
+    name: 'Fuse AI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/fuseai',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1791294081815/400/300'
   }];
