@@ -9012,4 +9012,30 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/cosmic',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1791328990023/400/300'
+  },
+  {
+    id: '1791365018497',
+    name: 'Takweem AI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/takweem-ai',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1791365018497/400/300'
+  },
+  {
+    id: '1791365018507',
+    name: 'ParakeetAI 2.0',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/parakeetai',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1791365018507/400/300'
   }];
