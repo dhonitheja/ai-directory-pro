@@ -9077,4 +9077,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/kernelai',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1791669788257/400/300'
+  },
+  {
+    id: '1791798558304',
+    name: 'Invited - AI Reminder Scanner',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/invited-ai-reminder-scanner',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1791798558304/400/300'
   }];
