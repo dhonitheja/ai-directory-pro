@@ -9103,4 +9103,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/the-drive-ai-2',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1791880344088/400/300'
+  },
+  {
+    id: '1791908962916',
+    name: 'Kai',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/hirekai',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1791908962916/400/300'
   }];
