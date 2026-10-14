@@ -9116,4 +9116,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/hirekai',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1791908962916/400/300'
+  },
+  {
+    id: '1792007095833',
+    name: 'Screenwell.ai',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/screenwell-ai',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1792007095833/400/300'
   }];
