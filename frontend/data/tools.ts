@@ -9168,4 +9168,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/make0-brain',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1792042263290/400/300'
+  },
+  {
+    id: '1792077651325',
+    name: 'SaidTrace',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/saidtrace',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1792077651325/400/300'
   }];
