@@ -9207,4 +9207,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/train-with-pasta',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1792305528845/400/300'
+  },
+  {
+    id: '1792344960613',
+    name: 'Tomo for ChatGPT',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/tomo-for-chatgpt',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1792344960613/400/300'
   }];
