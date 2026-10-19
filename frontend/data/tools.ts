@@ -9233,4 +9233,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/walkai-talkai',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1792419547253/400/300'
+  },
+  {
+    id: '1792440901637',
+    name: 'Kai Resolve by Gleap',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/gleap',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1792440901637/400/300'
   }];
