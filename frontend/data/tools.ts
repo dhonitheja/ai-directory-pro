@@ -9246,4 +9246,30 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/gleap',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1792440901637/400/300'
+  },
+  {
+    id: '1792483540433',
+    name: 'GotEmail',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/gotemail',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1792483540433/400/300'
+  },
+  {
+    id: '1792483540439',
+    name: 'Jotform App Builder for ChatGPT & Claude',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/jotform',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1792483540439/400/300'
   }];
