@@ -9285,4 +9285,30 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/esp-mosaico',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1792560264788/400/300'
+  },
+  {
+    id: '1792611667468',
+    name: 'Lea by LeanAIOS',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/lea-by-leanaios',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1792611667468/400/300'
+  },
+  {
+    id: '1792611667471',
+    name: 'The Brains',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/the-brains',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1792611667471/400/300'
   }];
