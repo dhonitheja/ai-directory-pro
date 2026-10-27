@@ -9415,4 +9415,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/savor-3',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1793099152276/400/300'
+  },
+  {
+    id: '1793119996680',
+    name: 'GPT-6.1 Terra',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/openai',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1793119996680/400/300'
   }];
