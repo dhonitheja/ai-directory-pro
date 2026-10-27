@@ -9389,4 +9389,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/jobmate-ai-3',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1793036424518/400/300'
+  },
+  {
+    id: '1793062684598',
+    name: 'AI Bridge',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/ai-bridge',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1793062684598/400/300'
   }];
