@@ -9454,4 +9454,30 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/revix-ai-2',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1793134852196/400/300'
+  },
+  {
+    id: '1793194568403',
+    name: 'bytemail',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/bytemail',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1793194568403/400/300'
+  },
+  {
+    id: '1793194568426',
+    name: 'Trigger.dev: Webhooks for your AI agents',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/trigger-dev',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1793194568426/400/300'
   }];
