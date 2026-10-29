@@ -9493,4 +9493,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/lfm2',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1793242633056/400/300'
+  },
+  {
+    id: '1793264906580',
+    name: 'IFTTT.ai',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/ifttt',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1793264906580/400/300'
   }];
