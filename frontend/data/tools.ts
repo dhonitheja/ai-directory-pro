@@ -9545,4 +9545,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/chainpoints',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1793437093127/400/300'
+  },
+  {
+    id: '1793472953567',
+    name: 'BaseTab AI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/basetab-ai',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1793472953567/400/300'
   }];
