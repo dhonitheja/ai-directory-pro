@@ -9571,4 +9571,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/awaitio',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1793483959103/400/300'
+  },
+  {
+    id: '1793572125939',
+    name: 'Usage for Claude + ChatGPT 4.0',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/usage-for-claude',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1793572125939/400/300'
   }];
