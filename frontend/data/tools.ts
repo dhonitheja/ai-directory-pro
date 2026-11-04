@@ -9597,4 +9597,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/teamily-ai-human-ai-social-network',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1793695242673/400/300'
+  },
+  {
+    id: '1793760340931',
+    name: 'Infino AI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/infino-ai',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1793760340931/400/300'
   }];
