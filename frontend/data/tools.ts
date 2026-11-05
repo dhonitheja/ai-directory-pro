@@ -9623,4 +9623,43 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/openmail',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1793814158127/400/300'
+  },
+  {
+    id: '1793872584913',
+    name: 'Living Brain',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/chatandbuild',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1793872584913/400/300'
+  },
+  {
+    id: '1793872584918',
+    name: 'Stitch.ai',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/stitch-ai',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1793872584918/400/300'
+  },
+  {
+    id: '1793872584921',
+    name: 'AI Employees by Easy-Peasy.AI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/easy-peasy-ai',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1793872584921/400/300'
   }];
