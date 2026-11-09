@@ -9701,4 +9701,30 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/openai',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1794043104799/400/300'
+  },
+  {
+    id: '1794246651077',
+    name: 'Egoist AI Passport',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/egoist-ai-passport',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1794246651077/400/300'
+  },
+  {
+    id: '1794246651080',
+    name: 'Dageno AI 2.0',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/agent-powered-geo-by-dageno',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1794246651080/400/300'
   }];
