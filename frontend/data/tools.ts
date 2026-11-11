@@ -9740,4 +9740,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/arcjet',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1794296910009/400/300'
+  },
+  {
+    id: '1794360609921',
+    name: 'Lottie AI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/lottiefiles',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1794360609921/400/300'
   }];
