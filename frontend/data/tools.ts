@@ -9857,4 +9857,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/chatgpt',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1794877630951/400/300'
+  },
+  {
+    id: '1794908732323',
+    name: 'AI Visibility by TruLata',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/trulata',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1794908732323/400/300'
   }];
