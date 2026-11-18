@@ -9870,4 +9870,30 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/trulata',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1794908732323/400/300'
+  },
+  {
+    id: '1794993425388',
+    name: 'AssemblyAI-STT-3.7',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/assemblyai',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1794993425388/400/300'
+  },
+  {
+    id: '1794993425392',
+    name: 'Ody Ai Business Phone',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/ody-ai-business-phone',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1794993425392/400/300'
   }];
