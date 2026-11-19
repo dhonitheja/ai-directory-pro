@@ -9896,4 +9896,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/ody-ai-business-phone',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1794993425392/400/300'
+  },
+  {
+    id: '1795110285769',
+    name: 'Stripo Email Widgets',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/stripo-email',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1795110285769/400/300'
   }];
