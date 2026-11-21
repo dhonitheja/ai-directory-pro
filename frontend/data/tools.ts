@@ -9922,4 +9922,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/inkrail',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1795210428321/400/300'
+  },
+  {
+    id: '1795256292773',
+    name: 'AI Context Flow MCP',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/ai-context-flow',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1795256292773/400/300'
   }];
