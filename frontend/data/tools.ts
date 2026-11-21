@@ -9935,4 +9935,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/ai-context-flow',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1795256292773/400/300'
+  },
+  {
+    id: '1795300078841',
+    name: 'Glassmail',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/glassmail',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1795300078841/400/300'
   }];
