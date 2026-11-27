@@ -9961,4 +9961,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/airbots',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1795623065335/400/300'
+  },
+  {
+    id: '1795744674467',
+    name: 'Kagi Mail',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/kagi',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1795744674467/400/300'
   }];
