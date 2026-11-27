@@ -9974,4 +9974,17 @@ export const TOOLS: Tool[] = [
     website: 'https://www.producthunt.com/products/kagi',
     tags: ["new","rss","auto-discovered"],
     imageUrl: 'https://picsum.photos/seed/1795744674467/400/300'
+  },
+  {
+    id: '1795775037872',
+    name: 'Spark AI',
+    // Sanitize description: escape quotes AND remove newlines to prevent syntax errors
+    description: 'Discussion             |             Link...', 
+    category: Category.PRODUCTIVITY,
+    rating: 0,
+    reviewCount: 0,
+    pricing: PricingModel.FREEMIUM,
+    website: 'https://www.producthunt.com/products/spark-ai-7',
+    tags: ["new","rss","auto-discovered"],
+    imageUrl: 'https://picsum.photos/seed/1795775037872/400/300'
   }];
